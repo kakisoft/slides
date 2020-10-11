@@ -28,14 +28,13 @@ Because I love it so much, I created original escape room for my wedding party.
 
 ---
 
-## Misson
 ## The mission of one work
 
 我が社のシステムを、SAPと連携する事になった。
-We decided to associate with SAP and our system.
+We decided to associate with SAP and our system.  
 
-我が社のシステムに入力した、売り上げ・支払いのデータを、SAPに伝送する機能を実装したまえ。
-Create one function that inputted sales and payment data from our system transmit to SAP.
+我が社のシステムに入力した、売り上げ・支払いのデータを、SAPに伝送する機能を実装したまえ。  
+Create one function that inputted sales and payment data from our system transmit to SAP.  
 
 ---
 
@@ -46,7 +45,7 @@ If I understand it here, I can implement the function.
 
 ---
 
-study of SHIWAKE
+##### study of SHIWAKE
 
 I study with book and internet. but I don't understand anything about it.
 
