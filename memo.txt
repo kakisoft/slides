@@ -4,6 +4,11 @@ githabpages は、1つの階層における文字数に制限がある？
 accounting_for_engineers だと 404 となってしまったが
 accounting_for_engineer  だと OKだった。
 
+accounting_for_engineera
+accounting_for_engineerx
+abcdefghijklmnopqrstuvwx
+でも 404 だったので、単純に文字数の問題だけではないかと思われる。
+
 
 
 
