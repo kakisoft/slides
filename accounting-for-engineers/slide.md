@@ -14,23 +14,23 @@ id:kakisoft
 
 ## about me
 
-name : Satoru Kakinohana
-Home City : Okinawa
-Work : Software Engineers( Specifically Logistics)
-       PHP/JavaScript/AWS etc...
-Hobby : escape room( It is called "Real Dassyutsu Game" in Japan )
+name : Satoru Kakinohana  
+Home City : Okinawa  
+Work : Software Engineers( Specifically Logistics)  
+       PHP/JavaScript/AWS etc...  
+Hobby : escape room( It is called "Real Dassyutsu Game" in Japan )  
 
-cf. escape room is really exciting entertainment.
-You use deductive skill and inspiration and team work, then solve challenging puzzles.
-Because I love it so much, I created original escape room for my wedding party.
+cf. escape room is really exciting entertainment.  
+You use deductive skill and inspiration and team work, then solve challenging puzzles.  
+Because I love it so much, I created original escape room for my wedding party.  
 
-好きすぎて、自分の結婚式の二次会でオリジナルのゲームを作った。
+好きすぎて、自分の結婚式の二次会でオリジナルのゲームを作った。  
 
 ---
 
 ## The mission of one work
 
-我が社のシステムを、SAPと連携する事になった。
+我が社のシステムを、SAPと連携する事になった。  
 We decided to associate with SAP and our system.  
 
 我が社のシステムに入力した、売り上げ・支払いのデータを、SAPに伝送する機能を実装したまえ。  
@@ -38,29 +38,29 @@ Create one function that inputted sales and payment data from our system transmi
 
 ---
 
-I have no idea about accouting but...
+I have no idea about accouting but...  
 
 
-If I understand it here, I can implement the function.
+If I understand it here, I can implement the function.  
 
 ---
 
 ##### study of SHIWAKE
 
-I study with book and internet. but I don't understand anything about it.
+I study with book and internet. but I don't understand anything about it.  
 
-I mean, I don't know how to apply all the information that I have got to system.
+I mean, I don't know how to apply all the information that I have got to system.  
 
-I feel there are many definition for each authrs.
-
-
-<accounting title>
+I feel there are many definition for each authrs.  
 
 
-You can creat <accounting title> as you want.
+"accounting title"
 
 
-cf. section of <accounting title> is SHISAN, FUSAI, SHIHON, SYUUEKI, HIYOU
+You can creat "accounting title" as you want.  
+
+
+cf. section of "accounting title" is SHISAN, FUSAI, SHIHON, SYUUEKI, HIYOU
 
 ---
 
@@ -129,9 +129,9 @@ It is most import point.
 
 # 
 
-<accounting title> は複数あります。しかし・・・
+"accounting title" は複数あります。しかし・・・
 
-There is many <accounting title> but...
+There is many "accounting title" but...
 
 
 
@@ -141,7 +141,7 @@ There is many <accounting title> but...
 
 
 You only focus on "You got money" or "You lost money"
-regaredless of <accounting title>
+regaredless of "accounting title"
 
 ---
 
@@ -156,7 +156,7 @@ ME    YOU
 
 
 対になる項目
-opossite side
+opossite side d
 
 $ 2,000
 
@@ -166,7 +166,7 @@ case 1 : You got money
 
 client
 
-You apply <accounting title>
+You apply "accounting title"
 
 
 ---
@@ -177,7 +177,7 @@ provider
 
 ---
 
-# about other <accounting title>
+# about other "accounting title"
 
 X, Y などは、少し複雑になります。  
 X and Y are little complicated.  
