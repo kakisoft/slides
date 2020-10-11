@@ -1,0 +1,9 @@
+## githubpages にデプロイしたのに 404
+githabpages は、1つの階層における文字数に制限がある？
+
+accounting_for_engineers だと 404 となってしまったが
+accounting_for_engineer  だと OKだった。
+
+
+
+
