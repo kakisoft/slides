@@ -1,10 +1,12 @@
----  
-theme　: "black"  
-transition　: "default"  
----  
+---
+theme　: "black"
+transition　: "default"
+---
 
-# タイトル  
+# タイトル
 
----  
+---
 
 ## スライド1
+
+
