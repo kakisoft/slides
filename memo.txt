@@ -13,6 +13,11 @@ abcdefghijklmnopqrstuvwx
 abcdefghijklmnopqrstuvwxy
 abcdefghijklmnopqrstuvwxyz
 
+「 _ 」（アンダーバー）が悪いのか？
+ということで、「 - 」（ハイフン）で繋げてみる。
+
+accounting-for-engineer
+accounting-for-engineers
 
 
 
