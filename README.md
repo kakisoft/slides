@@ -1,20 +1,8 @@
 # slide
 slide
 
+## accounting for engineers
+<https://kakisoft.github.io/slide/accounting-for-engineers/export/index>
 
-## vscode-reveal
-https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal
-
-
-## ビルド
-command + shift + P → Rrevealjs: Export in HTML.
-
-
-
-```
-コマンドパレットで [reveal] を検索
-
-Open presentation in browser
-```
 
 
