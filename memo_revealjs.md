@@ -3,10 +3,13 @@ https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal
 
 
 ## ビルド
+```
 command + shift + P → Rrevealjs: Export in HTML.
+```
 
 
 
+## ブラウザにてプレビュー
 ```
 コマンドパレットで [reveal] を検索
 
