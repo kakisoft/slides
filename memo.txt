@@ -6,8 +6,11 @@ accounting_for_engineer  だと OKだった。
 
 accounting_for_engineera
 accounting_for_engineerx
+でも 404 だったので、単純に文字数の問題だけではないかと思われる。（24文字）
+
+・・・と考えていたが、以下だと OKだった。（24文字）
 abcdefghijklmnopqrstuvwx
-でも 404 だったので、単純に文字数の問題だけではないかと思われる。
+abcdefghijklmnopqrstuvwxy
 
 
 
