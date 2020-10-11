@@ -2,13 +2,13 @@
 theme　: "black"
 transition　: "default"
 ---
+## Accounting for engineers
 
-# タイトル
-
----
-
-Accounting for engineers
-エンジニアの会計
+<br>
+<br>
+<br>
+<br>
+id:kakisoft
 
 ---
 
@@ -26,7 +26,7 @@ Because I love it so much, I created original escape room for my wedding party.
 
 好きすぎて、自分の結婚式の二次会でオリジナルのゲームを作った。
 
-----------------------------
+---
 
 ## Misson
 ## The mission of one work
@@ -37,14 +37,14 @@ We decided to associate with SAP and our system.
 我が社のシステムに入力した、売り上げ・支払いのデータを、SAPに伝送する機能を実装したまえ。
 Create one function that inputted sales and payment data from our system transmit to SAP.
 
-----------------------------
+---
 
 I have no idea about accouting but...
 
 
 If I understand it here, I can implement the function.
 
-----------------------------
+---
 
 study of SHIWAKE
 
@@ -62,7 +62,9 @@ You can creat <accounting title> as you want.
 
 
 cf. section of <accounting title> is SHISAN, FUSAI, SHIHON, SYUUEKI, HIYOU
-----------------------------
+
+---
+
 # fro example KARIKATA/KASHIKATA
 
 according to "日本実業社：はじめての簿記と仕訳"
@@ -73,7 +75,8 @@ according to "日本実業出版社：世界一やさしい会計の本です"
 
 KARIKATA means "ME", and KASHIKATA means "YOU".
 
-----------------------------
+---
+
 # so that
 
 I figure out each specialists have their own opinion.
@@ -82,7 +85,8 @@ So...
 
 I adapt opinion that is easy to understand for me.
 
-----------------------------
+---
+
 # so, I choose these books.
 
 autor : Shinya Yamada
@@ -91,7 +95,8 @@ Title : "世界一やさしい会計の本です", "世界一感動する会計�
 He has also written these famous books: "さおだけ屋はなぜ潰れないのか", "女子大生会計士の事件簿"
 
 
-----------------------------
+---
+
 # the reason why I choose
 
 It's eash for me to understand.
@@ -111,7 +116,8 @@ So, I will tell you that method.
 
 If you understand it, you can sransmit to SAP.
 
-----------------------------
+---
+
 # before that ...
 
 KARIKATA is "ME"
@@ -120,7 +126,8 @@ KASHIKATA is "YOU"
 
 It is most import point.
 
-----------------------------
+---
+
 # 
 
 <accounting title> は複数あります。しかし・・・
@@ -137,7 +144,8 @@ There is many <accounting title> but...
 You only focus on "You got money" or "You lost money"
 regaredless of <accounting title>
 
-----------------------------
+---
+
 # 
 
 If you got money, you input amount of money in KARIKATA.
@@ -153,7 +161,7 @@ opossite side
 
 $ 2,000
 
-----------------------------
+---
 
 case 1 : You got money
 
@@ -162,19 +170,19 @@ client
 You apply <accounting title>
 
 
-----------------------------
+---
 
-case 2 : You lost money
+case 2 : You lost money  
 
-provider
+provider  
 
-----------------------------
+---
 
 # about other <accounting title>
 
-X, Y などは、少し複雑になります。
-X and Y are little complicated.
+X, Y などは、少し複雑になります。  
+X and Y are little complicated.  
 
-You can apply this rules basically.
+You can apply this rules basically.  
 
 
