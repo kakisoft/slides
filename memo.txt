@@ -11,6 +11,7 @@ accounting_for_engineerx
 ・・・と考えていたが、以下だと OKだった。（24文字）
 abcdefghijklmnopqrstuvwx
 abcdefghijklmnopqrstuvwxy
+abcdefghijklmnopqrstuvwxyz
 
 
 
