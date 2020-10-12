@@ -1,4 +1,3 @@
-
 Accounting for engineers
 エンジニアの会計
 
@@ -10,7 +9,7 @@ name : Satoru Kakinohana
 Home City : Okinawa
 Work : Software Engineers( Specifically Logistics)
        PHP/JavaScript/AWS etc...
-Hobby : escape room( It is called "Real Dassyutsu Game" in Japan )
+Hobby : escape room( It is called "リアル脱出ゲーム" in Japan )
 
 cf. escape room is really exciting entertainment.
 You use deductive skill and inspiration and team work, then solve challenging puzzles.
@@ -168,13 +167,111 @@ X and Y are little complicated.
 
 You can apply this rules basically.
 
+また、特殊なローカルルールは会社ごとに存在すると思われます。
+also, there are some special rules for each companies.
 
+
+----------------------------
+## How to transmit to SAP
+
+
+売り上げ・支払いを勘定科目で分けて、固定長テキストに切り出して、
+伝送モジュールを使って実行。
+
+1st step, 売り上げのデータと、支払いのデータを感情科目で分ける
+2nd step, データを切り出す
+3rd step, use 伝送モジュール
+
+自分たちのシステムに入力された売り上げ・支払いのデータ
+
+1st step.
+You apply "account title" to inputted sales and paymen t data from our system.
+
+2nd step.
+You extract necessary data.
+
+3rd step.
+You use transmission module.
+
+That's al
+done!
+
+----------------------------
+
+## extra contents
+
+AWS の EC2にて、SAP のAMI を見つけました。
+I found AMI from SAP in AWS
+
+
+気が向いたら試してみます。
+I'll try if I feel like it.
+
+----------------------------
+
+fin.
 
 =====================================================================
 =====================================================================
 =====================================================================
 
 
+Thank you for your listening.
+
+
+=====================================================================
+=====================================================================
+=====================================================================
+
+Hey guys. let's get start it.
+
+The topic I talk about is "Accounting for Engineers"
+
+The topic I would like to talk about is 
+
+----
+
+Hi, there.
+Today, I will talk about......
+
+==================
+
+まず、軽く自己紹介をさせていただきます。
+Before jump into main topic, I will introduce myself a little bit.
+
+
+仕事では、
+PHP/JavaScript/AWS etc...
+を使っています。
+
+I usally use PHP\JavaScript\AWS etc... in my work.
+
+
+==================
+
+ある日、私は会社から以下のようなミッションを下されました。
+One day, I got a order as follows.
+
+==================
+
+会計なんて全然分からなかったので、勉強してみました。
+
+I have absolutely no idea about accounting, so I studyed it.
+
+すると、以下のような事が分かりました。
+すると、以下の図のような事が分かりました。
+
+Then I figured out there are some categories.
+
+=======
+
+I realized If I understand it "SHIWAKE", I can implement the function.
+
+
+
+=====================================================================
+=====================================================================
+=====================================================================
 スペインでは、「サップ」で通じるらしい。
 
 
