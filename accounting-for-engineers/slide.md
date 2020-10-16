@@ -1,6 +1,7 @@
 ---
 theme　: "black"
 transition　: "default"
+customTheme : "my-theme"
 ---
 ## Accounting for engineers
 
@@ -38,14 +39,14 @@ Create one function that inputted sales and payment data from our system transmi
 
 ---
 
-I have no idea about accouting but...  
+## I have no idea about accouting but...  
 
 
 If I understand it here, I can implement the function.  
 
 ---
 
-##### study of SHIWAKE
+## study of SHIWAKE
 
 I study with book and internet. but I don't understand anything about it.  
 
@@ -64,7 +65,7 @@ cf. section of "accounting title" is SHISAN, FUSAI, SHIHON, SYUUEKI, HIYOU
 
 ---
 
-# fro example KARIKATA/KASHIKATA
+## for example KARIKATA/KASHIKATA
 
 according to "日本実業社：はじめての簿記と仕訳"  
 
@@ -76,7 +77,7 @@ KARIKATA means "ME", and KASHIKATA means "YOU".
 
 ---
 
-# so that
+## so that
 
 I figure out each specialists have their own opinion.  
 
@@ -86,7 +87,7 @@ I adapt opinion that is easy to understand for me.
 
 ---
 
-# so, I choose these books.
+## so, I choose these books.
 
 autor : Shinya Yamada  
 Title : "世界一やさしい会計の本です", "世界一感動する会計の本です"  
@@ -96,7 +97,7 @@ He has also written these famous books: "さおだけ屋はなぜ潰れないの
 
 ---
 
-# the reason why I choose
+## the reason why I choose
 
 It's eash for me to understand.  
 
@@ -117,7 +118,7 @@ If you understand it, you can sransmit to SAP.
 
 ---
 
-# before that ...
+## before that ...
 
 KARIKATA is "ME"  
 
@@ -127,7 +128,7 @@ It is most import point.
 
 ---
 
-# 
+## 
 
 "accounting title" は複数あります。しかし・・・  
 
@@ -145,7 +146,7 @@ regaredless of "accounting title"
 
 ---
 
-# 
+## 
 
 If you got money, you input amount of money in KARIKATA.  
 
@@ -162,7 +163,7 @@ $ 2,000
 
 ---
 
-case 1 : You got money  
+## case 1 : You got money  
 
 client  
 
@@ -171,7 +172,7 @@ You apply "accounting title"
 
 ---
 
-case 2 : You lost money  
+## case 2 : You lost money  
 
 provider  
 
