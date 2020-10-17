@@ -13,7 +13,7 @@ id:kakisoft
 
 ---
 
-## about me <img src="./assets/kakisoft_logo.png" style="max-width: 10%;">  
+## about me <img src="./assets/kaki_mini.png" style="max-width: 5%;">  
 
 &nbsp;  |  &nbsp;
 -------------|---------------
