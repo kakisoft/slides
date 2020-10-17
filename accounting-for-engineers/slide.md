@@ -15,17 +15,18 @@ id:kakisoft
 
 ## about me
 
-name : Satoru Kakinohana  
-Home City : Okinawa  
-Work : Software Engineers( Specifically Logistics)  
-       PHP/JavaScript/AWS etc...  
-Hobby : escape room( It is called "リアル脱出ゲーム" in Japan )  
+&nbsp;  |  &nbsp;
+-------------|---------------
+name       | Satoru Kakinohana &nbsp;&nbsp;&nbsp;<small><a href="https://kakisoft-portfolio-v2.netlify.com/">portfolio</a></small>
+work      | Software Engineers<br><small>Specifically Logistics.<br>PHP/JavaScript/AWS etc...</small>  
+hobby      | escape room<small>( It is called "リアル脱出ゲーム" in Japan )</small>  
+<small>Twitte account</small> | <small>[@kakisoft_tab](https://twitter.com/kakisoft_tab)</small>
 
 <br>
 
+<small>
 cf. escape room is really exciting entertainment.  
-You use deductive skill and inspiration and team work, then solve challenging puzzles.  
-Because I love it so much, I created original escape room for my wedding party.  
+You use deductive skill and inspiration and team work, then solve challenging puzzles.</small>
 
 ---
 
@@ -94,23 +95,14 @@ So...
 
 ## so, I choose these books.
 
-
 <img src="./assets/002.png" style="max-width: 20%;">  
 <img src="./assets/003.png" style="max-width: 20%;">  
 
-Title :
- * "世界一やさしい会計の本です"
- * "世界一感動する会計の本です"  
-autor : Shinya Yamada  
-
-<br>
-<br>
-<br>
-
-He has also written these famous books: 
- * "さおだけ屋はなぜ潰れないのか"
- * "女子大生会計士の事件簿"  
-
+autor | title
+-------------|---------------
+Shinya Yamada       | 世界一やさしい会計の本です
+^^           | 世界一感動する会計の本です
+-------------|---------------
 
 ---
 
