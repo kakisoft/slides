@@ -518,7 +518,7 @@ And you input your client to credit.
 
 Once accounting title is applied
 
-cash will be named as a "A",
+cash will be named as a Sales,
 and client will be the name of actual client.
 
 =======
@@ -530,7 +530,7 @@ And input your provider to debit.
 
 Once accounting title is applied
 
-cash will be named as a "A",
+cash will be named as a Purchases,
 and provider will be the name of actual provider.
 
 =======

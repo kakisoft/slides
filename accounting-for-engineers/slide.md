@@ -43,7 +43,7 @@ You use deductive skill and inspiration and team work, then solve challenging pu
 
 ## I have no idea about accouting but...  
 
-<img src="./assets/001.png" style="max-width: 50%;">  
+<img src="./assets/001.png" style="max-width: 60%;">  
 
 If I understand it here, I can implement the function.  
 
@@ -147,17 +147,9 @@ You only focus on **"You got money"** or **"You lost money"** regaredless of acc
 
 If you got money, you input amount of money in debit.  
 
-If you lost money, you input amount of money in credit.  
-
 <img src="./assets/004.png">  
 
-ME    YOU  
-
-<br>
-
-opossite side d  
-
-$ 2,000  
+If you lost money, you input amount of money in credit.  
 
 ---
 
@@ -165,18 +157,11 @@ $ 2,000
 
 <img src="./assets/005.png">  
 
-me    client  
-
-You apply "accounting title"  
-
-
 ---
 
 ## case 2 : You lost money  
 
 <img src="./assets/006.png">  
-
-provider  
 
 ---
 
