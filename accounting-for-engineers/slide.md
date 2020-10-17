@@ -11,7 +11,8 @@ customTheme : "my-style"
 <br>
 id:kakisoft
 <br>
-&nbsp;&nbsp;<img src="./assets/kaki01.png" style="max-width: 10%;">
+&nbsp;&nbsp;<img src="./assets/kakisoft_log
+.png" style="max-width: 10%;">
 
 ---
 
