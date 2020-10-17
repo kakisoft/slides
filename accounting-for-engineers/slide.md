@@ -9,7 +9,7 @@ customTheme : "my-style"
 <br>
 <br>
 <br>
-id:kakisoft
+kakisoft
 <br>
 &nbsp;&nbsp;<img src="./assets/kakisoft_log
 .png" style="max-width: 10%;">
