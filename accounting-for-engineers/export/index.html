@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Accounting for engineers</title>
+  <title>VSCode Reveal intro</title>
 
   <meta name="description" content="">
   <meta name="author" content="">
@@ -265,6 +265,10 @@
 
 <body>
   
+<div id="logo" style="position: fixed; top: 20px; left: 20px; z-index: 1">
+    <img src="logo.png" />
+</div>
+
 
   <div class="reveal">
 
@@ -372,12 +376,25 @@ but I don’t understand anything about it.</p>
         <section >
             
             <h2><a id="user-content-for-example-karikatakashikata" class="anchor" href="#for-example-karikatakashikata" aria-hidden="true"></a>for example KARIKATA/KASHIKATA</h2>
-<br>
-<h2><a id="user-content-according-to" class="anchor" href="#according-to" aria-hidden="true"></a>according to</h2>
-<h4><a id="user-content-日本実業社：はじめての簿記と仕訳" class="anchor" href="#日本実業社：はじめての簿記と仕訳" aria-hidden="true"></a><strong>&quot;日本実業社：はじめての簿記と仕訳&quot;</strong></h4>
-<p>It have no meaning, Yukichi Fukuzawa named it like so at the first importation.</p>
-<h4><a id="user-content-日本実業出版社：世界一やさしい会計の本です" class="anchor" href="#日本実業出版社：世界一やさしい会計の本です" aria-hidden="true"></a><strong>&quot;日本実業出版社：世界一やさしい会計の本です&quot;</strong></h4>
-<p>KARIKATA means “ME”, and KASHIKATA means “YOU”.</p>
+<p>according to some books …</p>
+<table>
+<thead>
+<tr>
+<th>title</th>
+<th>discription</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>はじめての簿記と仕訳</td>
+<td>It have no meaning, Yukichi Fukuzawa named it like so at the first importation.</td>
+</tr>
+<tr>
+<td>世界一やさしい会計の本です</td>
+<td>KARIKATA means “ME”, and KASHIKATA means “YOU”.</td>
+</tr>
+</tbody>
+</table>
 
             </section>
     
@@ -401,9 +418,8 @@ but I don’t understand anything about it.</p>
         <section >
             
             <h2><a id="user-content-so-i-choose-these-books" class="anchor" href="#so-i-choose-these-books" aria-hidden="true"></a>so, I choose these books.</h2>
-<br>
-<img src="./assets/002.png">  
-<img src="./assets/003.png">  
+<img src="./assets/002.png" style="max-width: 20%;">  
+<img src="./assets/003.png" style="max-width: 20%;">  
 <p>Title :</p>
 <ul>
 <li>“世界一やさしい会計の本です”</li>
@@ -593,7 +609,7 @@ I’ll try if I feel like it.</p>
         controlsLayout: 'bottom-right',
         controlsBackArrows: 'faded',
         progress: true,
-        slideNumber: true,
+        slideNumber: false,
         history: true,
         keyboard: true,
         overview: true,

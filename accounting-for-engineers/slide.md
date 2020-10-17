@@ -72,17 +72,13 @@ cf. section of "accounting title" is Assets, Liabilities, etc..
 
 ## for example KARIKATA/KASHIKATA
 
-<br>
+according to some books ..
 
-## according to 
+title | discription
+-------------|---------------
+はじめての簿記と仕訳       | It have no meaning, Yukichi Fukuzawa named it like so at the first importation.  
+世界一やさしい会計の本です           | KARIKATA means "ME", and KASHIKATA means "YOU".  
 
-#### **"日本実業社：はじめての簿記と仕訳"**   
-
-It have no meaning, Yukichi Fukuzawa named it like so at the first importation.  
-
-#### **"日本実業出版社：世界一やさしい会計の本です"**  
-
-KARIKATA means "ME", and KASHIKATA means "YOU".  
 
 ---
 
@@ -98,12 +94,11 @@ So...
 
 ## so, I choose these books.
 
-<br>
 
-<img src="./assets/002.png">  
-<img src="./assets/003.png">  
+<img src="./assets/002.png" style="max-width: 20%;">  
+<img src="./assets/003.png" style="max-width: 20%;">  
 
-Title : 
+Title :
  * "世界一やさしい会計の本です"
  * "世界一感動する会計の本です"  
 autor : Shinya Yamada  
