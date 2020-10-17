@@ -39,28 +39,34 @@ Boss "We decided to associate with SAP and our system."
 
 ## I have no idea about accouting but...  
 
-<img src="./assets/001.png">  
+<img src="./assets/001.png" style="max-width: 50%;">  
 
 If I understand it here, I can implement the function.  
 
 ---
 
-## study of SHIWAKE
+## study of SHIWAKE - 1
 
-I study with book and internet. but I don't understand anything about it.  
+I study with book and internet.   
+but I don't understand anything about it.  
+
+---
+
+## study of SHIWAKE - 2
 
 I mean, I don't know how to apply all the information that I have got to system.  
 
+---
+
+## study of SHIWAKE - 3
+
 I feel there are many definition for each authrs.  
 
-
-"accounting title"  
-
+<br>
 
 You can creat "accounting title" as you want.  
 
-
-cf. section of "accounting title" is SHISAN, FUSAI, SHIHON, SYUUEKI, HIYOU  
+cf. section of "accounting title" is Assets, Liabilities, etc.. 
 
 ---
 
@@ -68,16 +74,11 @@ cf. section of "accounting title" is SHISAN, FUSAI, SHIHON, SYUUEKI, HIYOU
 
 <br>
 
-### according to 
-
-<br>
+## according to 
 
 #### **"日本実業社：はじめての簿記と仕訳"**   
 
 It have no meaning, Yukichi Fukuzawa named it like so at the first importation.  
-
-<br>
-<br>
 
 #### **"日本実業出版社：世界一やさしい会計の本です"**  
 
@@ -170,7 +171,7 @@ If you got money, you input amount of money in KARIKATA.
 
 If you lost money, you input amount of money in KASHIKATA.  
 
-<br>
+<img src="./assets/004.png">  
 
 ME    YOU  
 
@@ -184,6 +185,8 @@ $ 2,000
 
 ## case 1 : You got money  
 
+<img src="./assets/005.png">  
+
 me    client  
 
 You apply "accounting title"  
@@ -192,6 +195,8 @@ You apply "accounting title"
 ---
 
 ## case 2 : You lost money  
+
+<img src="./assets/006.png">  
 
 provider  
 
@@ -232,7 +237,7 @@ done!
 
 ## extra contents
 
-<br>
+<img src="./assets/007.png">  
 
 I found AMI from SAP in AWS  
 I'll try if I feel like it.  
