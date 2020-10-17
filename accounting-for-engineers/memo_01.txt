@@ -216,13 +216,6 @@ fin.
 =====================================================================
 
 
-Thank you for your listening.
-
-
-=====================================================================
-=====================================================================
-=====================================================================
-
 Hey guys. let's get start it.
 
 The topic I talk about is "Accounting for Engineers"
@@ -236,16 +229,11 @@ Today, I will talk about......
 
 ==================
 
-まず、軽く自己紹介をさせていただきます。
 Before jump into main topic, I will introduce myself a little bit.
 
-
-仕事では、
-PHP/JavaScript/AWS etc...
-を使っています。
-
+I mainly work for logistics.
 I usally use PHP\JavaScript\AWS etc... in my work.
-
+I you would like you can check me out.
 
 ==================
 
@@ -267,7 +255,33 @@ Then I figured out there are some categories.
 
 I realized If I understand it "SHIWAKE", I can implement the function.
 
+=======
 
+for example 
+
+Then you input that amount to debit.
+And you input your client to credit.
+
+Once accounting title is applied
+
+cash will be named as a "A",
+and client will be the name of actual client.
+
+=======
+
+for example 
+
+You input that amount to credit.
+And input your provider to debit.
+
+Once accounting title is applied
+
+cash will be named as a "A",
+and provider will be the name of actual provider.
+
+=======
+
+Thank you for your listening.
 
 =====================================================================
 =====================================================================

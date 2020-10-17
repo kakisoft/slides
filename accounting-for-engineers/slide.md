@@ -10,15 +10,17 @@ customTheme : "my-style"
 <br>
 <br>
 id:kakisoft
+<br>
+&nbsp;&nbsp;<img src="./assets/kaki01.png" style="max-width: 10%;">
 
 ---
 
-## about me <img src="./assets/kaki_mini.png" style="max-width: 5%;">  
+## about me
 
 &nbsp;  |  &nbsp;
 -------------|---------------
 name       | Satoru Kakinohana &nbsp;&nbsp;&nbsp;<small><a href="https://kakisoft-portfolio-v2.netlify.com/">portfolio</a></small>
-work      | Software Engineers<br><small>Specifically Logistics.<br>PHP/JavaScript/AWS etc...</small>  
+job        | Software Engineers<br><small>Specifically Logistics.<br>PHP/JavaScript/AWS etc...</small>  
 hobby      | escape room<small>( It is called "リアル脱出ゲーム" in Japan )</small>  
 <small>Twitte account</small> | <small>[@kakisoft_tab](https://twitter.com/kakisoft_tab)</small>
 
@@ -32,7 +34,7 @@ You use deductive skill and inspiration and team work, then solve challenging pu
 
 ## The mission of one work
 
-Boss "We decided to associate with SAP and our system."  
+"We decided to associate with SAP and our system."  
 
 "Create one function that inputted sales and payment data from our system transmit to SAP."  
 
@@ -46,39 +48,33 @@ If I understand it here, I can implement the function.
 
 ---
 
-## study of SHIWAKE - 1
+## study of journal entry
 
 I study with book and internet.   
 but I don't understand anything about it.  
 
 ---
 
-## study of SHIWAKE - 2
-
 I mean, I don't know how to apply all the information that I have got to system.  
 
 ---
 
-## study of SHIWAKE - 3
-
 I feel there are many definition for each authrs.  
 
-<br>
+ちなみに、You can creat accounting title as you want.  
 
-You can creat "accounting title" as you want.  
-
-cf. section of "accounting title" is Assets, Liabilities, etc.. 
+<small>cf. section of accounting title is Assets, Liabilities, etc..</small>
 
 ---
 
-## for example KARIKATA/KASHIKATA
+## for example, debit and credit
 
 according to some books ..
 
 title | discription
 -------------|---------------
 はじめての簿記と仕訳       | It have no meaning, Yukichi Fukuzawa named it like so at the first importation.  
-世界一やさしい会計の本です           | KARIKATA means "ME", and KASHIKATA means "YOU".  
+世界一やさしい会計の本です           | debit means "ME", and credit means "YOU".  
 
 
 ---
@@ -109,20 +105,20 @@ Shinya Yamada       | 世界一やさしい会計の本です
 ## the reason why I choose
 
 It's eash for me to understand.  
-In others books, they divide by "勘定科目"  
+In others books, they divide by accounting title  
 
 But, he use more easier way.  
 So, I will tell you that method.  
 
-If you understand it, you can sransmit to SAP.  
+If you understand it, you can tsransmit to SAP.  
 
 ---
 
 ## before that ...
 
-KARIKATA is **"ME"**  
+debit means **"ME"**  
 
-KASHIKATA is **"YOU"**  
+credit means **"YOU"**  
 
 <br>
 
@@ -130,33 +126,27 @@ It is most import point.
 
 ---
 
-## basic stance 基本的な考え explain 1
+## basic idea of accounting
 
-There is many "accounting title"   
+There is many accounting title   
 for example ...  
-
-<br>
 
  * Checking accounts
  * Finished goods
  * Accounts payable
  * Capital stock
 
-<br>
-
 but...  
-
-<br>
-
-You only focus on **"You got money"** or **"You lost money"** regaredless of "accounting title"  
 
 ---
 
-## explain 2
+You only focus on **"You got money"** or **"You lost money"** regaredless of accounting title  
 
-If you got money, you input amount of money in KARIKATA.  
+---
 
-If you lost money, you input amount of money in KASHIKATA.  
+If you got money, you input amount of money in debit.  
+
+If you lost money, you input amount of money in credit.  
 
 <img src="./assets/004.png">  
 
@@ -189,13 +179,13 @@ provider
 
 ---
 
-## about other "accounting title"
+## about other accounting title
 
 <br>
 
-Advance payments and 建て替え are little complicated.  
+Advance payments and transfer are little complicated.  
 
-You can apply this rules basically.  
+But, you can apply previous rules basically.  
 
 also, there are some special rules for each companies.  
 
@@ -206,7 +196,7 @@ also, there are some special rules for each companies.
 <br>
 
 #### 1st step.
-You apply "account title" to inputted sales and paymen t data from our system.  
+You apply account title to inputted sales and payment data from your system.  
 
 #### 2nd step.
 You extract necessary data.  
@@ -214,11 +204,8 @@ You extract necessary data.
 #### 3rd step.
 You use transmission module.  
 
-<br>
-<br>
 
-That's al  
-done!  
+That's all  
 
 ---
 
