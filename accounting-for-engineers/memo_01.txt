@@ -492,8 +492,8 @@ I you would like you can check me out.
 
 ==================
 
-すると、以下の図のような事が分かりました。
-Then I figured out there are some categories.
+以下の図のような事が分かりました。
+I figured out there are some categories.
 
 
 I realized If I understand journal entry, I can implement the function.
