@@ -91,7 +91,7 @@ So...
 <img src="./assets/002.png" style="max-width: 20%;">  
 <img src="./assets/003.png" style="max-width: 20%;">  
 
-autor | title
+author | title
 -------------|---------------
 Shinya Yamada       | 世界一やさしい会計の本です
 ^^           | 世界一感動する会計の本です
@@ -124,7 +124,7 @@ It is most important point.
 
 ## basic idea of accounting
 
-There are many accounting titles.
+There are many accounting titles.  
 for example  
 
  * Checking accounts
@@ -150,7 +150,7 @@ If you lost money, you input amount of money in credit.
 
 ## case 1 : You got money  
 
-Then you input that amount to debit.  
+You input that amount to debit.  
 And you input your client to credit.  
 
 <img src="./assets/005.png">  
