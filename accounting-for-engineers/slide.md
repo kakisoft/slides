@@ -33,11 +33,11 @@ You use deductive skill and inspiration and team work, then solve challenging pu
 
 ---
 
-## The mission of one work
+## The mission of the work
 
 "We decided to associate with SAP and our system."  
 
-"Create one function that inputted sales and payment data from our system transmit to SAP."  
+"Create one function that transmit inputted sales and payment data from our system to SAP."  
 
 ---
 
@@ -49,18 +49,18 @@ If I understand journal entry, I can implement the function.
 
 ---
 
-## studied of journal entry
+## studied about journal entry
 
 I studied with book and internet.   
 but I did't understand anything about it.  
 
 ---
 
-I mean, I did't know how to apply all the information that I have got to system.  
+I mean, I did't know how to apply all the information that I have to system.
 
 ---
 
-I felt there are many definition for each authrs.  
+I felt each authors have many different definitions.
 
 ---
 
@@ -102,15 +102,15 @@ Shinya Yamada       | 世界一やさしい会計の本です
 
 It was easy for me to understand.  
 
-In others books, they divide by accounting title.  
+In other books, they divide by accounting title before journal entry.  
 But, he uses easier way.  
 
 So, I will tell you that method.  
-If you understand it, you can tsransmit to SAP.  
+If you understand it, you can transmit to SAP.  
 
 ---
 
-## before that ...
+## First of all
 
 debit means **"ME"**  
 
@@ -118,7 +118,7 @@ credit means **"YOU"**
 
 <br>
 
-It is most important point.  
+It is the most important point.
 
 ---
 
@@ -155,20 +155,20 @@ And you input your client to credit.
 
 <img src="./assets/005.png">  
 
-cash will be named as a Sales,
-and client will be the name of actual client.  
+In this case, cash will be named as Sales,
+ and client will be the name of actual client.  
 
 ---
 
 ## case 2 : You lost money  
 
-You input that amount to credit.
+You input that amount to credit.  
 And input your provider to debit.
 
 <img src="./assets/006.png">  
 
-cash will be named as a Purchases,
-and provider will be the name of actual provider.
+In this case, cash will be named as a Purchases,
+ and provider will be the name of actual provider.
 
 ---
 
