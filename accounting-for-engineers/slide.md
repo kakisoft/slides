@@ -41,30 +41,26 @@ You use deductive skill and inspiration and team work, then solve challenging pu
 
 ---
 
-## I have no idea about accouting but...  
+## I had no idea about accouting but...  
 
 <img src="./assets/001.png" style="max-width: 60%;">  
 
-If I understand it here, I can implement the function.  
+If I understand journal entry, I can implement the function.  
 
 ---
 
-## study of journal entry
+## studied of journal entry
 
-I study with book and internet.   
-but I don't understand anything about it.  
-
----
-
-I mean, I don't know how to apply all the information that I have got to system.  
+I studied with book and internet.   
+but I did't understand anything about it.  
 
 ---
 
-I feel there are many definition for each authrs.  
+I mean, I did't know how to apply all the information that I have got to system.  
 
-ちなみに、You can creat accounting title as you want.  
+---
 
-<small>cf. section of accounting title is Assets, Liabilities, etc..</small>
+I felt there are many definition for each authrs.  
 
 ---
 
@@ -74,7 +70,7 @@ according to some books ..
 
 title | discription
 -------------|---------------
-はじめての簿記と仕訳       | It have no meaning, Yukichi Fukuzawa named it like so at the first importation.  
+はじめての簿記と仕訳       | It has no meaning, Yukichi Fukuzawa named it like so at the first importation.  
 世界一やさしい会計の本です           | debit means "ME", and credit means "YOU".  
 
 
@@ -82,15 +78,15 @@ title | discription
 
 ## so that
 
-I figure out each specialists have their own opinion.  
+I figured out each specialists have their own opinion.  
 
 So...  
 
-**I adapt opinion that is easy to understand for me.**  
+**I adapted opinion that was easy to understand for me.**  
 
 ---
 
-## so, I choose these books.
+## so, I chose these books.
 
 <img src="./assets/002.png" style="max-width: 20%;">  
 <img src="./assets/003.png" style="max-width: 20%;">  
@@ -99,18 +95,17 @@ autor | title
 -------------|---------------
 Shinya Yamada       | 世界一やさしい会計の本です
 ^^           | 世界一感動する会計の本です
--------------|---------------
 
 ---
 
-## the reason why I choose
+## the reason why I chose
 
-It's eash for me to understand.  
-In others books, they divide by accounting title  
+It was easy for me to understand.  
 
-But, he use more easier way.  
+In others books, they divide by accounting title.  
+But, he uses easier way.  
+
 So, I will tell you that method.  
-
 If you understand it, you can tsransmit to SAP.  
 
 ---
@@ -123,14 +118,14 @@ credit means **"YOU"**
 
 <br>
 
-It is most import point.  
+It is most important point.  
 
 ---
 
 ## basic idea of accounting
 
-There is many accounting title   
-for example ...  
+There are many accounting titles.
+for example  
 
  * Checking accounts
  * Finished goods
@@ -141,7 +136,7 @@ but...
 
 ---
 
-You only focus on **"You got money"** or **"You lost money"** regaredless of accounting title  
+You only focus on **"You got money"** or **"You lost money"**, regaredless of accounting titles.  
 
 ---
 
