@@ -150,13 +150,25 @@ If you lost money, you input amount of money in credit.
 
 ## case 1 : You got money  
 
+Then you input that amount to debit.  
+And you input your client to credit.  
+
 <img src="./assets/005.png">  
+
+cash will be named as a Sales,
+and client will be the name of actual client.  
 
 ---
 
 ## case 2 : You lost money  
 
+You input that amount to credit.
+And input your provider to debit.
+
 <img src="./assets/006.png">  
+
+cash will be named as a Purchases,
+and provider will be the name of actual provider.
 
 ---
 
