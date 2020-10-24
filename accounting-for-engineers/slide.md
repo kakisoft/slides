@@ -52,11 +52,11 @@ If I understand journal entry, I can implement the function.
 ## studied about journal entry
 
 I studied with book and internet.   
-but I did't understand anything about it.  
+but I didn't understand anything about it.  
 
 ---
 
-I mean, I did't know how to apply all the information that I have to system.
+I mean, I didn't know how to apply all the information that I have to system.
 
 ---
 
