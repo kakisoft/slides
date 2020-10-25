@@ -189,7 +189,8 @@ also, there are some special rules for each companies.
 <br>
 
 #### 1st step.
-You apply account title to inputted sales and payment data from your system.  
+You apply account title to inputted sales and   
+payment data from your system.
 
 #### 2nd step.
 You extract necessary data.  
