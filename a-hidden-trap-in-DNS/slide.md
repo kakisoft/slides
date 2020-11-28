@@ -35,98 +35,116 @@ You use deductive skill and inspiration and team work, then solve challenging pu
 ---
 
 I wasn't sure about DNS, so I read the book had good reviews on the internet.  
-私は、DNSについてあまり詳しくなったので、評判の良かったこの本を読んでみました。  
+
+私は、DNSについてあまり詳しくなったので、ネット上で評判の良かった本を読んでみました。  
 
 ---
 
-I read book is it  
+This is the book that I read.  
+https://mochikoastech.booth.pm/items/812516  
+
 その本が、これです。  
 
 ---
 
-This book is good.  
+This is good.  
 
 ---
+
+Thanks to this book, I got basic knowledge of DNS.  
 
 この本のおかげで、私はDNSの基礎を理解する事ができました。  
-next, I will explain technical contents of this book.  
 
 ---
+
+But, today I am not going to explain how DNS works.  
 
 しかし、私がこのスライドで取りあげたいのは、DNSの技術についてではありません。  
-But, My main topic is not DNS  
 
 ---
 
+I want to pick up a hidden trap of in this book.  
+
 この本に書かれていた、ある「トラップ」についてです。  
-But this book has a hidden trap.  
 
 ---
 
 We normally name variables and functions randomly such as 'a', 'test', and 'xxx'.  
+
 変数名や関数名に、適当な名前の例として "a", "test", "xxx" といった名称を使う事はよくありますが  
 
 ---
 
 But, These names are not allowed in DNS.  
+
 DNS の世界では、それは許されていません。  
 
 ---
+
+Bucause, there is high possibility of that your random domain name is already taken.  
 
 なぜなら、そのドメインの所有者が存在する可能性があるからです。  
 
 ---
 
-例えば、  
-http://test.co.jp/  
-は、  
+The domain names you ramdamly named are already someone has ohther.  
+
+あなたが適当な例として挙げたドメイン名は、既に誰かが所有している可能性があります。  
+
+
+---
+
+For example, test.co.jp is taken by Kyoikuhyokakenkyujyo.  
+
+例えば、test.co.jp  というドメインは、  
 有限会社教育評価研究所という会社のウェブサイトです。  
 
 ---
 
-同様に、  
-aaa.com は、  
-
-'aaa.com' is already taken by the American Automobile Association.  
+And 'aaa.com' is already taken by the American Automobile Association.  
+同様に、aaa.com は、American Automobile Association のウェブサイトです。  
 
 ---
 
-このように「自分の持ち物でないドメイン名」を勝手に使うのはトラブルの元となります。
+If you use domain name that is not yours,it cause some troubles.
+このように「自分の持ち物でないドメイン名」を勝手に使うのはトラブルの元となります。  
 
 ---
 
+In fact, there are defined domain names which we can use freely on the internet  
 実はインターネットでは「例示やテストで使って いいドメイン名」というものが定められています。  
-テストユーザのメールアドレスや、 フォームで例として書くメールアドレスには次のドメイン名を使いましょう。  
 
+---
+
+You can use following domain names for mail address of test user or when you write in form.   
+テストユーザのメールアドレスや、 フォームで例として書くメールアドレスには次のドメイン名を使いましょう。  
 
 * example.co.jp
 * example.jp
 * example.com
 * example.net
 
-これらのドメイン名であれば将来的に誰かのものになる可能性もありませんし、
-予期せ ぬ第三者へうっかりメールが飛んでいってしまうことも避けられます。
+---
 
-これらのドメイン名であれば将来的に誰かのものになる可能性もありませんし、  
-予期せ ぬ第三者へうっかりメールが飛んでいってしまうことも避けられます。  
+These domains are will not taken by someone.  
+You avoid sending email to a unexpected third person unintentionally.  
+
+これらのドメイン名であれば将来的に誰かのものになる可能性もありません。  
+予期せぬ第三者へうっかりメールが飛んでいってしまうことも避けられます。  
 
 ---
 
 The book introduce those domains. for example 
 'aaa.com', 'test.com', 'xxx.com'
 
----
-
-There is possibility that those random names are already taken by someone.  
-
-The book introduce already taken domeins, for example  
-'aaa.com', 'test.com', 'xxx.com'  
+そして、この本では、取得済みのドメインの例として、"aaa.com", "test.co.jp", "xxx.com" が紹介されています。  
 
 ---
 
-私は興味があったので、そのドメインを  
-I interested in  
-So, I visited these domain  
+I interested in these domains.  
+So, I visited.
+
+興味が湧いたので、それらのサイトを訪問してみました。
 
 ---
 
@@ -134,22 +152,29 @@ So, I visited these domain
 
 ---
 
-何と、"xxx.com" は、かなりドギツめのアダルトサイトだったのです！
+Surprisingly, **“xxx. com” is a hardcore adult web site!**  
+何と、**"xxx.com" は、かなりドギツめのアダルトサイトだったのです！**  
 
 ---
 
-そのサイトを見ていたとき、私はオフィスにいたので、超速でブラウザを閉じました。
+When I saw the site, I was in the office, so I close this page quickly.  
+
+そのサイトを見ていたとき、私はオフィスにいたので、超速でブラウザを閉じました。  
 
 ---
 
 多分、誰にも見られてなかったと思います。  
 皆様も、正体不明のドメインを踏む時は、注意してください。  
 
-また、「例として適当に挙げたドメインが、アダルトサイトだった」となったら、オフィシャルな場では、笑うに笑えません。  
+---
+
+また、「例として適当に挙げたドメインが、実在するアダルトサイトだった」となってしまったら、オフィシャルな場面では、笑うに笑えません。  
+
+ドメインの取り扱いには注意しましょう。  
 
 ---
 
-この事を、Twitter に書きました。
+そして、この事件を私は Twitter で呟きました。
 
 ---
 
@@ -157,8 +182,17 @@ So, I visited these domain
 
 ---
 
+
+
+---
+
 COOOOOOL!  
 She is a great engineer!
+
+---
+
+また、202X年 XX月 時点では、xxx.com はアクセスできないようです。  
+あなたがオフィスにいる時でも、安心して訪れてみてください。  
 
 ---
 
