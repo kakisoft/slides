@@ -41,6 +41,7 @@ I wasn't sure about DNS, so I read the book had good reviews on the internet.
 ---
 
 This is the book that I read.  
+<img src="./assets/001.png" style="max-width: 60%;">  
 https://mochikoastech.booth.pm/items/812516  
 
 その本が、これです。  
@@ -135,9 +136,9 @@ You avoid sending email to a unexpected third person unintentionally.
 ---
 
 The book introduce those domains. for example 
-'aaa.com', 'test.com', 'xxx.com'
+'aaa.com', 'test.com', 'xxx/.com'
 
-そして、この本では、取得済みのドメインの例として、"aaa.com", "test.co.jp", "xxx.com" が紹介されています。  
+そして、この本では、取得済みのドメインの例として、"aaa.com", "test.co.jp", "xxx/.com" が紹介されています。  
 
 ---
 
@@ -179,19 +180,22 @@ When I saw the site, I was in the office, so I close this page quickly.
 ---
 
 すると、本の作者からリプライをもらえました。
+<img src="./assets/002.png" style="max-width: 60%;">  
+https://twitter.com/kakisoft_tab/status/1157635487340752898
 
 ---
 
-
+She said ""
+xxx/.com の件は、なんというかスマン。。
 
 ---
 
-COOOOOOL!  
+## COOOOOOL!  
 She is a great engineer!
 
 ---
 
-また、202X年 XX月 時点では、xxx.com はアクセスできないようです。  
+また、202X年 XX月 時点では、xxx/.com はアクセスできないようです。  
 あなたがオフィスにいる時でも、安心して訪れてみてください。  
 
 ---
