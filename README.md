@@ -6,6 +6,6 @@ slide
 
 
 ## accounting for engineers
-<https://kakisoft.github.io/slide/a-hidden-trap-in-DNS/export/index>
+<https://kakisoft.github.io/slide/a-hidden-trap-in-DNS/export/index.html>
 
 
