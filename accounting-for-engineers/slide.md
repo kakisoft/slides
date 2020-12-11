@@ -2,6 +2,7 @@
 theme　: "black"
 transition　: "default"
 customTheme : "my-style"
+title : "Accounting for engineers"
 ---
 ## Accounting for engineers
 

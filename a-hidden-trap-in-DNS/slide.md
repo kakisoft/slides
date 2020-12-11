@@ -35,12 +35,11 @@ You use deductive skill and inspiration and team work, then solve challenging pu
 ---
 
 I wasn't sure about DNS, so I read the book had good reviews on the internet.  
-
 私は、DNSについてあまり詳しくなったので、ネット上で評判の良かった本を読んでみました。  
 
 ---
 
-This is the book that I read.  
+Here is the book I read.  
 <img src="./assets/001.png" style="max-width: 60%;">  
 https://mochikoastech.booth.pm/items/812516  
 
@@ -48,7 +47,7 @@ https://mochikoastech.booth.pm/items/812516
 
 ---
 
-This is good.  
+This was good.  
 
 ---
 
@@ -88,13 +87,6 @@ Bucause, there is high possibility of that your random domain name is already ta
 
 ---
 
-The domain names you ramdamly named are already someone has ohther.  
-
-あなたが適当な例として挙げたドメイン名は、既に誰かが所有している可能性があります。  
-
-
----
-
 For example, test.co.jp is taken by Kyoikuhyokakenkyujyo.  
 
 例えば、test.co.jp  というドメインは、  
@@ -103,21 +95,25 @@ For example, test.co.jp is taken by Kyoikuhyokakenkyujyo.
 ---
 
 And 'aaa.com' is already taken by the American Automobile Association.  
+
 同様に、aaa.com は、American Automobile Association のウェブサイトです。  
 
 ---
 
-If you use domain name that is not yours,it cause some troubles.
+If you use domain name that is not yours, it cause some troubles.  
+
 このように「自分の持ち物でないドメイン名」を勝手に使うのはトラブルの元となります。  
 
 ---
 
-In fact, there are defined domain names which we can use freely on the internet  
+In fact, there are defined domain names which we can use freely on the internet.  
+
 実はインターネットでは「例示やテストで使って いいドメイン名」というものが定められています。  
 
 ---
 
 You can use following domain names for mail address of test user or when you write in form.   
+
 テストユーザのメールアドレスや、 フォームで例として書くメールアドレスには次のドメイン名を使いましょう。  
 
 * example.co.jp
@@ -135,77 +131,104 @@ You avoid sending email to a unexpected third person unintentionally.
 
 ---
 
-The book introduce those domains. for example 
-'aaa.com', 'test.com', 'xxx/.com'
+So, here goes the main part.  
 
-そして、この本では、取得済みのドメインの例として、"aaa.com", "test.co.jp", "xxx/.com" が紹介されています。  
+そして、ここからが本題です。  
+
+---
+
+The author introduced those domains in the book.  
+for example 'aaa.com', 'test.com', 'xxx.com'  
+
+そして、この本では、取得済みのドメインの例として、"aaa.com", "test.co.jp", "xxx.com" が紹介されています。  
 
 ---
 
-I interested in these domains.  
-So, I visited.
+I became interested in these so I visited those websites.  
 
-興味が湧いたので、それらのサイトを訪問してみました。
+興味が湧いたので、それらのサイトを訪問してみました。  
 
 ---
+
+But, one of domain had an unexpected hidden trap.  
 
 その中の１つのドメインに、とんでもない罠が隠されていました。  
 
 ---
 
-Surprisingly, **“xxx. com” is a hardcore adult web site!**  
+Unbelievably, **“xxx. com” is a hardcore adult web site!**  
+
 何と、**"xxx.com" は、かなりドギツめのアダルトサイトだったのです！**  
 
 ---
 
-When I saw the site, I was in the office, so I close this page quickly.  
+When I checked the site, I was in the office, so I closed this page quickly.  
 
 そのサイトを見ていたとき、私はオフィスにいたので、超速でブラウザを閉じました。  
 
 ---
+
+Maybe, nobody noticed this accident.  
+When you visite unknown domains, be careful enough.  
 
 多分、誰にも見られてなかったと思います。  
 皆様も、正体不明のドメインを踏む時は、注意してください。  
 
 ---
 
+Also, If the domain that you proposed as example in the formal meeting is actual existing adult website, you might feel embarrassed.
+
 また、「例として適当に挙げたドメインが、実在するアダルトサイトだった」となってしまったら、オフィシャルな場面では、笑うに笑えません。  
+
+---
+
+Be careful with domain names.
 
 ドメインの取り扱いには注意しましょう。  
 
 ---
 
-そして、この事件を私は Twitter で呟きました。
+So, I tweeted this accident.  
+
+そして、この事件を私は Twitter で呟きました。  
 
 ---
 
+Then the auther of the book replied me.  
+
 すると、本の作者からリプライをもらえました。
+
+---
+
 <img src="./assets/002.png" style="max-width: 60%;">  
 https://twitter.com/kakisoft_tab/status/1157635487340752898
 
 ---
 
-She said ""
-xxx/.com の件は、なんというかスマン。。
+She said "I', sorry about xxx/.com"  
+
+xxx/.com の件は、なんというかスマン。。  
 
 ---
 
 ## COOOOOOL!  
-She is a great engineer!
+She is a great engineer!  
 
 ---
 
-また、202X年 XX月 時点では、xxx/.com はアクセスできないようです。  
+Furthermore, as of December 2020, 
+you can't access xxx.com.
+
+You can visite without any problems even if you are in office.
+
+なお、2020年 12月の時点では、xxx.com はアクセスできないようです。  
 あなたがオフィスにいる時でも、安心して訪れてみてください。  
 
 ---
 
-なお、2020年 12月の時点では、xxx.com はアクセスできないようです。  
-公共の場でも、安心して訪れてください。
+<small>However, in the moment you visite the website, it might be revived.</small>  
 
----
-
-<small>ただし、アクセスした瞬間には生きている</small>
+<small>ただし、あなたがアクセスしたその瞬間には、生き返っているかもしれません。</small>
 
 ---
 
