@@ -35,15 +35,17 @@ You use deductive skill and inspiration and team work, then solve challenging pu
 ---
 
 I wasn't sure about DNS, so I read the book had good reviews on the internet.  
+
 私は、DNSについてあまり詳しくなったので、ネット上で評判の良かった本を読んでみました。  
 
 ---
 
 Here is the book I read.  
-<img src="./assets/001.png" style="max-width: 60%; max-height: 60%;">  
-https://mochikoastech.booth.pm/items/812516  
 
 その本が、これです。  
+
+<img src="./assets/001.png" style="max-width: 60%; max-height: 500px;">  
+https://mochikoastech.booth.pm/items/812516  
 
 ---
 
@@ -158,7 +160,7 @@ But, one of domain had an unexpected hidden trap.
 
 Unbelievably, **“xxx. com” is a hardcore adult web site!**  
 
-何と、**"xxx.com" は、かなりドギツめのアダルトサイトだったのです！**  
+何と、**"xxx. com" は、かなりドギツめのアダルトサイトだったのです！**  
 
 ---
 
@@ -200,14 +202,15 @@ Then the auther of the book replied me.
 
 ---
 
-<img src="./assets/002.png" style="max-width: 60%; max-height: 60%;">  
-https://twitter.com/kakisoft_tab/status/1157635487340752898
+<img src="./assets/002.png" style="max-width: 60%; max-height: 500px;">  
+
+<a href="https://twitter.com/kakisoft_tab/status/1157635487340752898">https://twitter.com/kakisoft_tab/status/1157635487340752898</a>
 
 ---
 
 She said "I', sorry about xxx/.com"  
 
-xxx/.com の件は、なんというかスマン。。  
+『xxx/.com の件は、なんというかスマン。。』  
 
 ---
 
