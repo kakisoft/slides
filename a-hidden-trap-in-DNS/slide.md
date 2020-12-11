@@ -40,7 +40,7 @@ I wasn't sure about DNS, so I read the book had good reviews on the internet.
 ---
 
 Here is the book I read.  
-<img src="./assets/001.png" style="max-width: 60%;">  
+<img src="./assets/001.png" style="max-width: 60%; max-height: 60%;">  
 https://mochikoastech.booth.pm/items/812516  
 
 その本が、これです。  
@@ -200,7 +200,7 @@ Then the auther of the book replied me.
 
 ---
 
-<img src="./assets/002.png" style="max-width: 60%;">  
+<img src="./assets/002.png" style="max-width: 60%; max-height: 60%;">  
 https://twitter.com/kakisoft_tab/status/1157635487340752898
 
 ---
