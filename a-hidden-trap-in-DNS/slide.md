@@ -5,6 +5,7 @@ customTheme : "my-style"
 title : "A hidden trap in DNS"
 ---
 ## A hidden trap in DNS
+DNSに潜む罠  
 
 <br>
 <br>
@@ -36,7 +37,7 @@ You use deductive skill and inspiration and team work, then solve challenging pu
 
 I wasn't sure about DNS, so I read the book had good reviews on the internet.  
 
-私は、DNSについてあまり詳しくなったので、ネット上で評判の良かった本を読んでみました。  
+DNSについてあまり詳しくなったので、ネット上で評判の良かった本を読んでみました。  
 
 ---
 
