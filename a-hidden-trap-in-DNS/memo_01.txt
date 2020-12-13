@@ -1,6 +1,6 @@
 Hey guys. let's get start it.
 
-The topic I would like to talk about is "Accounting for Engineers"
+The topic I would like to talk about is "A hidden trap in DNS"
 
 ==================
 
@@ -13,11 +13,8 @@ I you would like you can check me out.
 
 ==================
 
-以下の図のような事が分かりました。
-I figured out there are some categories.
-
-
-I realized If I understand journal entry, I can implement the function.
+This book title is "DNS wo hajimeyou"
+Here is her reply.
 
 =======
 
@@ -26,7 +23,4 @@ Thank you for your listening.
 =====================================================================
 =====================================================================
 =====================================================================
-スペインでは、「サップ」で通じるらしい。
-
-
 
