@@ -126,7 +126,7 @@ You can use following domain names for mail address of test user or when you wri
 
 ---
 
-These domains are will not taken by someone.  
+These domains will not taken by someone.  
 You avoid sending email to a unexpected third person unintentionally.  
 
 これらのドメイン名であれば将来的に誰かのものになる可能性もありません。  
@@ -209,9 +209,9 @@ Then the auther of the book replied me.
 
 ---
 
-She said "I', sorry about xxx/.com"  
+<img src="./assets/003.png" style="max-width: 60%; max-height: 500px;">  
 
-『xxx/.com の件は、なんというかスマン。。』  
+She said "I'm sorry about xxx/.com"  
 
 ---
 
