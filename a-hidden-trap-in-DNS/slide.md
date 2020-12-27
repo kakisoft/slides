@@ -45,8 +45,8 @@ Here is the book I read.
 
 その本が、これです。  
 
-<img src="./assets/001.png" style="max-width: 60%; max-height: 500px;">  
-https://mochikoastech.booth.pm/items/812516  
+<img src="./assets/001.png" style="max-width: 60%; max-height: 400px;">  
+<a href="https://mochikoastech.booth.pm/items/812516 ">https://mochikoastech.booth.pm/items/812516 </a>  
 
 ---
 
