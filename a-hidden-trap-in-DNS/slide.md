@@ -84,7 +84,7 @@ DNS の世界では、それは許されていません。
 
 ---
 
-Bucause, there is high possibility of that your random domain name is already taken.  
+Because, there is high possibility of that your random domain name is already taken.  
 
 なぜなら、そのドメインの所有者が存在する可能性があるからです。  
 
@@ -141,7 +141,7 @@ So, here goes the main part.
 ---
 
 The author introduced those domains in the book.  
-for example 'aaa.com', 'test.com', 'xxx.com'  
+for example 'aaa.com', 'test.com', and 'xxx.com'  
 
 そして、この本では、取得済みのドメインの例として、"aaa.com", "test.co.jp", "xxx.com" が紹介されています。  
 
@@ -172,7 +172,7 @@ When I checked the site, I was in the office, so I closed this page quickly.
 ---
 
 Maybe, nobody noticed this accident.  
-When you visite unknown domains, be careful enough.  
+When you visit unknown domains, be careful enough.  
 
 多分、誰にも見られてなかったと思います。  
 皆様も、正体不明のドメインを踏む時は、注意してください。  
@@ -197,7 +197,7 @@ So, I tweeted this accident.
 
 ---
 
-Then the auther of the book replied me.  
+Then the author of the book replied me.  
 
 すると、本の作者からリプライをもらえました。
 
@@ -223,14 +223,14 @@ She is a great engineer!
 Furthermore, as of December 2020, 
 you can't access xxx.com.
 
-You can visite without any problems even if you are in office.
+You can visit without any problems even if you are in office.
 
 なお、2020年 12月の時点では、xxx.com はアクセスできないようです。  
 あなたがオフィスにいる時でも、安心して訪れてみてください。  
 
 ---
 
-<small>However, in the moment you visite the website, it might be revived.</small>  
+<small>However, in the moment you visit the website, it might be revived.</small>  
 
 <small>ただし、あなたがアクセスしたその瞬間には、生き返っているかもしれません。</small>
 

@@ -27,3 +27,104 @@ Thank you for your listening.
 =====================================================================
 =====================================================================
 
+Hey guys. let's get start it.
+
+Hi, everyone! let's get start it.
+
+The topic I would like to talk about is "A hidden trap in DNS"
+
+
+----------------------------------------
+
+Hi, everyone!
+Thank you for having me today.
+The topic I would like to talk about is "A hidden trap in DNS"
+
+
+Thank you for giving me this opportunity today.
+
+
+
+
+Thank you for having me today 
+Thank you for giving me this opportunity today.
+
+I will give a presentation about A hidden trap in DNS.
+
+
+
+
+
+
+ご清聴ありがとうございました
+Thank you for giving me this opportunity today.
+
+Bye
+
+----------------------------------------
+
+
+
+
+power point toiu 
+
+
+
+
+
+https://kakisoft-portfolio-v2.netlify.app/
+
+
+================================================
+DEV Community
+https://dev.to/kakisoft
+================================================
+
+
+
+
+今回のスライドは、日本語の字幕を付けました。
+This slide I put Japanese subtitles.
+
+
+=========================================================
+slide が
+
+"power point"
+
+
+
+What is DNS?
+
+インターネットの世界は、「IPアドレス」という、数字の羅列で相手を識別して通信をします。
+In the world of the internet, we identify the other by IP Address which is random numbers.
+
+電話番号のようなイメージですね。
+It is similar to phone number.
+  / It is similar to phone book.
+
+
+しかし、数字の羅列だと、人間が識別しづらいので、数字を英字に置き換える技術が、ネット上で使われています。
+But, It is difficult to identify the other from random numbers.
+So, It is used associate with random number and letter.
+
+
+But, It is difficult to distinguish the other from those random numbers.
+So, It is used technology for replacing numbers with letters on the Internet.
+
+
+
+「その前に、DNSについて、簡単な説明をさせていただきます。」
+First, 
+Before than page, 
+Before jump in, I explain about DNS briefly.
+
+
+
+これだけを聞くと簡単に思えるかもしれませんが、実際は様々な技術が使われています。
+It may seem easy to hear this alone, but various technology are used for this.
+
+
+
+
+this alone = これだけ
