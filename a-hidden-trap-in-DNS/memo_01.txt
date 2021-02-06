@@ -105,10 +105,6 @@ It is similar to phone number.
 
 
 しかし、数字の羅列だと、人間が識別しづらいので、数字を英字に置き換える技術が、ネット上で使われています。
-But, It is difficult to identify the other from random numbers.
-So, It is used associate with random number and letter.
-
-
 But, It is difficult to distinguish the other from those random numbers.
 So, It is used technology for replacing numbers with letters on the Internet.
 

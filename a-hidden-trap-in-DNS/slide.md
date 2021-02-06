@@ -35,6 +35,32 @@ You use deductive skill and inspiration and team work, then solve challenging pu
 
 ---
 
+## What is DNS?
+
+In the world of the internet, we identify the other by IP Address which is random numbers.  
+
+It is similar to phone number.  
+
+インターネットの世界は、「IPアドレス」という、数字の羅列で相手を識別して通信をします。  
+
+電話番号のようなイメージですね。  
+
+---
+
+But, It is difficult to distinguish the other from those random numbers.  
+
+So, It is used technology for replacing numbers with letters on the Internet.  
+
+しかし、数字の羅列だと、人間が識別しづらいので、数字を英字に置き換える技術が、ネット上で使われています。  
+
+---
+
+It may seem easy to hear this alone, but various technology are used for this.  
+
+これだけを聞くと簡単に思えるかもしれませんが、実際は様々な技術が使われています。  
+
+---
+
 I wasn't sure about DNS, so I read the book had good reviews on the internet.  
 
 DNSについてあまり詳しくなったので、ネット上で評判の良かった本を読んでみました。  
