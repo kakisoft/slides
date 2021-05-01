@@ -1,5 +1,5 @@
 ---
-theme　: "black"
+theme　: "night"
 transition: "slide"
 customTheme : "my-style"
 title : "A hidden trap in DNS"
