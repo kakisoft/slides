@@ -1,0 +1,34 @@
+1.輸送・配送
+2.保管
+3.包装
+4.荷役
+5.流通加工
+6.情報処理
+
+
+ * 輸配送　　Transport and delivery
+ * 保管   Storage
+ * 包装   Packaging
+ * 荷役  Cargo handling
+ * 流通加工  Distribution processing
+ * 情報処理 information communication and  technology
+
+
+
+
+JIS（日本工業規格）Z0111:2006でITも入ってるでしょう
+
+https://kikakurui.com/z0/Z0111-2006-01.html
+
+
+
+
+
+物流用語
+Glossary of terms for physical distribution 
+
+
+
+出てこねーな。おい。
+と思っていたら
+
