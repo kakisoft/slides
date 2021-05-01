@@ -88,25 +88,9 @@ This slide I put Japanese subtitles.
 
 
 =========================================================
-slide が
 
 "power point"
 
-
-
-What is DNS?
-
-インターネットの世界は、「IPアドレス」という、数字の羅列で相手を識別して通信をします。
-In the world of the internet, we identify the other by IP Address which is random numbers.
-
-電話番号のようなイメージですね。
-It is similar to phone number.
-  / It is similar to phone book.
-
-
-しかし、数字の羅列だと、人間が識別しづらいので、数字を英字に置き換える技術が、ネット上で使われています。
-But, It is difficult to distinguish the other from those random numbers.
-So, It is used technology for replacing numbers with letters on the Internet.
 
 
 
@@ -114,12 +98,6 @@ So, It is used technology for replacing numbers with letters on the Internet.
 First, 
 Before than page, 
 Before jump in, I explain about DNS briefly.
-
-
-
-これだけを聞くと簡単に思えるかもしれませんが、実際は様々な技術が使われています。
-It may seem easy to hear this alone, but various technology are used for this.
-
 
 
 
