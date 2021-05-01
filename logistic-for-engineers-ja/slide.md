@@ -14,7 +14,7 @@ title: "Logistic for engineers"
 kakisoft
 <br>
 
-&nbsp;&nbsp;<img src="../assets/kakisoft_log
+&nbsp;&nbsp;<img src="../assets/kakisoft_logo
 .png" style="max-width: 10%;">
 
 ---
