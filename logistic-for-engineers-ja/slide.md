@@ -32,11 +32,6 @@ Twitte | [@kakisoft_tab](https://twitter.com/kakisoft_tab)
 ---
 
 ### スライドのテーマ
-
-
-<span><a href="aaaa">aaa</a>
-<span class="nnn">nnn</span>
-
 <br>
 
 別に誰も興味持たなくてもいいし、  
