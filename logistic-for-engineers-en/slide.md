@@ -1,10 +1,9 @@
 ---
-theme : "solarized"
+theme : "league"
 transition: "slide"
-highlightTheme: "monokai"
-logoImg: "logo.png"
 slideNumber: false
-title: "VSCode Reveal intro"
+customTheme : "my-style"
+title: "Logistic for engineers"
 ---
 ## Logistic for engineers
 
