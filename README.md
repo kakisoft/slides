@@ -9,3 +9,8 @@ slide
 <https://kakisoft.github.io/slide/a-hidden-trap-in-DNS/export/index.html>
 
 
+## Logistic for engineers
+<https://kakisoft.github.io/slide/logistic-for-engineers/export/index.html>
+
+
+
