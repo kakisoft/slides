@@ -5,7 +5,7 @@ slideNumber: false
 customTheme : "my-style"
 title: "Logistic for engineers"
 ---
-## Logistic for engineers
+## 物流と在庫管理のシステムについて語りたい
 
 <br>
 <br>
@@ -17,26 +17,22 @@ kakisoft
 &nbsp;&nbsp;<img src="../assets/kakisoft_log
 .png" style="max-width: 10%;">
 
---
-
-## Fragment Styles
-
-Highlight **red**{.red} **blue**{.fragment .highlight-blue} **green**{.fragment .highlight-green}
-
 ---
 
 ### about me
 
 &nbsp;  |  &nbsp;
 -------------|---------------
-名前       | Satoru Kakinohana &nbsp;&nbsp;&nbsp;<small><a href="https://kakisoft-portfolio-v2.netlify.com/">portfolio</a></small>
-仕事        | Software Engineers<br><small>Specifically Logistics.<br>PHP/JavaScript/AWS etc...</small>  
-趣味      | escape room<small>( It is called "リアル脱出ゲーム" in Japan )</small>  
-<small>Twitte account</small> | <small>[@kakisoft_tab](https://twitter.com/kakisoft_tab)</small>
+名前       | 垣花　暁 &nbsp;&nbsp;&nbsp;<small>
+仕事        | 物流系エンジニア<br><small>Laravel/React/AWS etc...</small>  
+趣味      | リアル脱出ゲーム
+ポートフォリオ | [kakisoft-portfolio](https://kakisoft-portfolio-v2.netlify.com)
+Twitte | [@kakisoft_tab](https://twitter.com/kakisoft_tab)
 
 ---
 
-### スライドの趣旨
+### スライドのテーマ
+<br>
 
 別に誰も興味持たなくてもいいし、  
 誰もついてこなくていいから、  
@@ -61,7 +57,7 @@ Highlight **red**{.red} **blue**{.fragment .highlight-blue} **green**{.fragment 
 
 ---
 
-バチくそ物流やってました。  
+がっつり物流やってました。  
 <br>
 他社の物流業務を丸ごと一括して引き受け（3PLと言います）、
 倉庫と開発現場が隣接しているケースも多々ありました。  
@@ -85,11 +81,12 @@ Highlight **red**{.red} **blue**{.fragment .highlight-blue} **green**{.fragment 
 
 ---
 
-まず、物流の基本。
+まず、物流の基本から。
 
 ---
 
 ### 物流６大機能
+<br>
 
  * 輸配送
  * 保管
@@ -98,9 +95,15 @@ Highlight **red**{.red} **blue**{.fragment .highlight-blue} **green**{.fragment 
  * 流通加工
  * 情報処理
 
+<br>  
+<br>  
+
+**<span class="right-blue">　</span>**
+
 ---
 
 ### 物流６大機能
+<br>
 
  * <span class="right-blue">輸配送</span>
  * 保管
@@ -117,6 +120,7 @@ Highlight **red**{.red} **blue**{.fragment .highlight-blue} **green**{.fragment 
 ---
 
 ### 物流６大機能
+<br>
 
  * 輸配送
  * <span class="right-blue">保管</span>
