@@ -17,250 +17,426 @@ kakisoft
 &nbsp;&nbsp;<img src="../assets/kakisoft_log
 .png" style="max-width: 10%;">
 
+--
+
+## Fragment Styles
+
+Highlight **red**{.red} **blue**{.fragment .highlight-blue} **green**{.fragment .highlight-green}
+
 ---
 
-## about me
+### about me
 
 &nbsp;  |  &nbsp;
 -------------|---------------
-name       | Satoru Kakinohana &nbsp;&nbsp;&nbsp;<small><a href="https://kakisoft-portfolio-v2.netlify.com/">portfolio</a></small>
-job        | Software Engineers<br><small>Specifically Logistics.<br>PHP/JavaScript/AWS etc...</small>  
-hobby      | escape room<small>( It is called "リアル脱出ゲーム" in Japan )</small>  
+名前       | Satoru Kakinohana &nbsp;&nbsp;&nbsp;<small><a href="https://kakisoft-portfolio-v2.netlify.com/">portfolio</a></small>
+仕事        | Software Engineers<br><small>Specifically Logistics.<br>PHP/JavaScript/AWS etc...</small>  
+趣味      | escape room<small>( It is called "リアル脱出ゲーム" in Japan )</small>  
 <small>Twitte account</small> | <small>[@kakisoft_tab](https://twitter.com/kakisoft_tab)</small>
 
+---
+
+### スライドの趣旨
+
+別に誰も興味持たなくてもいいし、  
+誰もついてこなくていいから、  
+自分の得意分野について話したい。
+
+---
+
+という訳で物流の話をしたいと思います。
+
+---
+
+主旨としては、  
+<br>
+**「エンジニアの視点で、  
+物流とそのシステムについて語る」**  
+<br>
+という内容です。
+
+---
+
+その前に、自分の経歴について、もう少し。
+
+---
+
+バチくそ物流やってました。  
+<br>
+他社の物流業務を丸ごと一括して引き受け（3PLと言います）、
+倉庫と開発現場が隣接しているケースも多々ありました。  
+<br>
+現場や倉庫を走り回ってました。
+
+---
+
+現場や事務所と密な連携を取りながら、  
+システム開発を進めてきた経験を踏まえての話です。
+
+---
+
+### 免責事項
+<br>
+ただ、ここで話す内容は、あくまでスライド主が  
+経験した範囲のもので、物流業界全体が  
+そうだという事を保証するものではありません。  
+
+10 の現場があれば、10 の運用方法があります。
+
+---
+
+まず、物流の基本。
+
+---
+
+### 物流６大機能
+
+ * 輸配送
+ * 保管
+ * 包装
+ * 荷役
+ * 流通加工
+ * 情報処理
+
+---
+
+### 物流６大機能
+
+ * <span class="right-blue">輸配送</span>
+ * 保管
+ * 包装
+ * 荷役
+ * 流通加工
+ * 情報処理
+
+<br>  
+<br>  
+
+**<span class="right-blue">よく話題に挙がるのは、ここ。</span>**
+
+---
+
+### 物流６大機能
+
+ * 輸配送
+ * <span class="right-blue">保管</span>
+ * 包装
+ * <span class="right-blue">荷役</span>
+ * 流通加工
+ * 情報処理
+
+<br>  
+<br>  
+
+**<span class="right-blue">今日話すのは、ここ。</span>**
+
+---
+
+主に、在庫管理について話したいと思います。
+
+---
+
+超ざっくり分割すると、次の機能に分類されます。
+
+---
+
+### 在庫管理システム：機能概要
 <br>
 
-<small>
-cf. escape room is really exciting entertainment.  
-You use deductive skill and inspiration and team work, then solve challenging puzzles.</small>
+ * 入荷{.fragment .highlight-blue}
+ * 出荷
+ * 棚卸
+ * データ交換
+ * 請求・支払
 
 ---
 
-## What is DNS?
-
-In the world of the internet, we identify the other by IP Address which is random numbers.  
-
-It is similar to phone number.  
-
-インターネットの世界は、「IPアドレス」という、数字の羅列で相手を識別して通信をします。  
-
-電話番号のようなイメージですね。  
+### 入荷
+<br>
+仕入先から、商品を倉庫に入れる業務。
 
 ---
 
-But, It is difficult to distinguish the other from those random numbers.  
-
-So, It is used technology for replacing numbers with letters on the Internet.  
-
-しかし、数字の羅列だと、人間が識別しづらいので、数字を英字に置き換える技術が、ネット上で使われています。  
-
----
-
-It may seem easy to hear this alone, but various technology are used for this.  
-
-これだけを聞くと簡単に思えるかもしれませんが、実際は様々な技術が使われています。  
+複雑化する事は、あまり多くない。  
+<br>
+また、いったん安定稼働に入ると、  
+システムが変わる事は、それほどない。  
+<br>
 
 ---
 
-I wasn't sure about DNS, so I read the book had good reviews on the internet.  
-
-DNSについてあまり詳しくなったので、ネット上で評判の良かった本を読んでみました。  
-
----
-
-Here is the book I read.  
-
-その本が、これです。  
-
-<img src="./assets/001.png" style="max-width: 60%; max-height: 400px;">  
-<a href="https://mochikoastech.booth.pm/items/812516 ">https://mochikoastech.booth.pm/items/812516 </a>  
+担当エンジニアのスキルレベルは、  
+初級～中級でも何とかなるケースが多い。  
+<br>
+**割くリソース：中**
 
 ---
 
-This was good.  
+### 在庫管理システム：機能概要
+<br>
+
+ * 入荷
+ * <span class="right-blue">出荷</span>
+ * 棚卸
+ * データ交換
+ * 請求・支払
 
 ---
 
-Thanks to this book, I got basic knowledge of DNS.  
+### 出荷
+<br>
 
-この本のおかげで、私はDNSの基礎を理解する事ができました。  
-
----
-
-But, today I am not going to explain how DNS works.  
-
-しかし、私がこのスライドで取りあげたいのは、DNSの技術についてではありません。  
+保有している商品を、  
+顧客や市場に向かって出す業務。
 
 ---
 
-I want to pick up a hidden trap of in this book.  
+複雑化しやすい。    
 
-この本に書かれていた、ある「トラップ」についてです。  
-
----
-
-We normally name variables and functions randomly such as 'a', 'test', and 'xxx'.  
-
-変数名や関数名に、適当な名前の例として "a", "test", "xxx" といった名称を使う事はよくありますが  
+また、外的要因により、システムの改修が  
+必要となる事も多い。  
 
 ---
 
-But, These names are not allowed in DNS.  
-
-DNS の世界では、それは許されていません。  
-
----
-
-Because, there is high possibility of that your random domain name is already taken.  
-
-なぜなら、そのドメインの所有者が存在する可能性があるからです。  
+稼働後も、頻繁に変える必要があるケースも多い。  
+エースを投入するなら、ここ。  
+<br>
+**割くリソース：大**
 
 ---
 
-For example, test.co.jp is taken by Kyoikuhyokakenkyujyo.  
+### 在庫管理システム：機能概要
+<br>
 
-例えば、test.co.jp  というドメインは、  
-有限会社教育評価研究所という会社のウェブサイトです。  
-
----
-
-And 'aaa.com' is already taken by the American Automobile Association.  
-
-同様に、aaa.com は、American Automobile Association のウェブサイトです。  
+ * 入荷
+ * 出荷
+ * <span class="right-blue">棚卸</span>
+ * データ交換
+ * 請求・支払
 
 ---
 
-If you use domain name that is not yours, it cause some troubles.  
+### 棚卸
+<br>
 
-このように「自分の持ち物でないドメイン名」を勝手に使うのはトラブルの元となります。  
-
----
-
-In fact, there are defined domain names which we can use freely on the internet.  
-
-実はインターネットでは「例示やテストで使って いいドメイン名」というものが定められています。  
+倉庫内に保有している商品の数量を  
+チェックする業務。
 
 ---
 
-You can use following domain names for mail address of test user or when you write in form.   
-
-テストユーザのメールアドレスや、 フォームで例として書くメールアドレスには次のドメイン名を使いましょう。  
-
-* example.co.jp
-* example.jp
-* example.com
-* example.net
+きっちりシステム化せずとも、  
+何とかなるケースも多い。  
 
 ---
 
-These domains will not taken by someone.  
-You avoid sending email to a unexpected third person unintentionally.  
+扱う商品によっては、ハンディターミナルで１つ１つ読み込ませる作業が現実的でないケースがある。  
+<small>（その場合は、帳票を見ながら、目視で確認する。)</small>  
 
-これらのドメイン名であれば将来的に誰かのものになる可能性もありません。  
-予期せぬ第三者へうっかりメールが飛んでいってしまうことも避けられます。  
 
----
+システム的な作業は、  
+事務所内で完結させる事も多い。  
+<br>
 
-So, here goes the main part.  
-
-そして、ここからが本題です。  
+**割くリソース：小**
 
 ---
 
-The author introduced those domains in the book.  
-for example 'aaa.com', 'test.com', and 'xxx.com'  
+### 在庫管理システム：機能概要
+<br>
 
-そして、この本では、取得済みのドメインの例として、"aaa.com", "test.co.jp", "xxx.com" が紹介されています。  
-
----
-
-I became interested in these so I visited those websites.  
-
-興味が湧いたので、それらのサイトを訪問してみました。  
+ * 入荷
+ * 出荷
+ * 棚卸
+ * <span class="right-blue">データ交換</span>
+ * 請求・支払
 
 ---
 
-But, one of domain had an unexpected hidden trap.  
+### データ交換
+<br>
 
-その中の１つのドメインに、とんでもない罠が隠されていました。  
-
----
-
-Unbelievably, **“xxx. com” is a hardcore adult web site!**  
-
-何と、**"xxx. com" は、かなりドギツめのアダルトサイトだったのです！**  
+入荷データ・出荷データ・棚卸データ  
+といった電子データを、ベンダーやサードパーティと  
+やり取りする業務。
 
 ---
 
-When I checked the site, I was in the office, so I closed this page quickly.  
-
-そのサイトを見ていたとき、私はオフィスにいたので、超速でブラウザを閉じました。  
-
----
-
-Maybe, nobody noticed this accident.  
-When you visit unknown domains, be careful enough.  
-
-多分、誰にも見られてなかったと思います。  
-皆様も、正体不明のドメインを踏む時は、注意してください。  
+重要なのは、**交渉力**と**政治力**。  
+<br>
+状況次第で、現場やエンジニアに  
+大きな負担がかかる事があります。  
+<br>
+自分たちが極端に不利（＝相手が一方的に楽）に  
+ならないようにしよう！
 
 ---
 
-Also, If the domain that you proposed as example in the formal meeting is actual existing adult website, you might feel embarrassed.
+システム的に重要なのは、スピードよりも正確性。  
+<br>  
 
-また、「例として適当に挙げたドメインが、実在するアダルトサイトだった」となってしまったら、オフィシャルな場面では、笑うに笑えません。  
-
----
-
-Be careful with domain names.
-
-ドメインの取り扱いには注意しましょう。  
-
----
-
-So, I tweeted this accident.  
-
-そして、この事件を私は Twitter で呟きました。  
+「粗いが早い」エンジニアより、  
+「じっくり作ってバグが少ない」エンジニアの方が  
+この工程に向いてます。  
+<br>
+**割くリソース：中～大**
 
 ---
 
-Then the author of the book replied me.  
+### 在庫管理システム：機能概要
+<br>
 
-すると、本の作者からリプライをもらえました。
-
----
-
-<img src="./assets/002.png" style="max-width: 60%; max-height: 500px;">  
-
-<a href="https://twitter.com/kakisoft_tab/status/1157635487340752898">https://twitter.com/kakisoft_tab/status/1157635487340752898</a>
-
----
-
-<img src="./assets/003.png" style="max-width: 60%; max-height: 500px;">  
-
-She said "I'm sorry about xxx/.com"  
+ * 入荷
+ * 出荷
+ * 棚卸
+ * データ交換
+ * <span class="right-blue">請求・支払</span>
 
 ---
 
-## COOOOOOL!  
-She is a great engineer!  
+**単純化できないなら、**  
+**システムでカバーしない方がいい。**  
 
 ---
 
-Furthermore, as of December 2020, 
-you can't access xxx.com.
-
-You can visit without any problems even if you are in office.
-
-なお、2020年 12月の時点では、xxx.com はアクセスできないようです。  
-あなたがオフィスにいる時でも、安心して訪れてみてください。  
+計算の仕組みが、超絶複雑となる事も多い。  
+<br>
+会計知識が必要だったり、妙なローカルルールに  
+盛大に振り回されりする事も。  
 
 ---
 
-<small>However, in the moment you visit the website, it might be revived.</small>  
-
-<small>ただし、あなたがアクセスしたその瞬間には、生き返っているかもしれません。</small>
+重症化すると、**物流のシステム作ってるのか会計のシステム作ってるのか、分からなくなる**レベルに達します。
 
 ---
 
-fin.
+加えて、計算ルールがベンダーごとに違っていたり、
+ルールがコロコロ変わる事も珍しくありません。
+
+---
+
+また、  
+**『割高になるけど   
+計算がシンプルで事務作業が軽減される』**  
+という計算方法より、  
+<br>
+**『計算が複雑怪奇でも、  
+安くできる（可能性がある）』**  
+計算の方が好まるケースもあります。
+
+---
+
+そういった場合、  
+<br>
+「請求と支払の計算に必要な帳票は出せるように  
+　しているから、計算はそっちでやってね♪」  
+<br>
+という方向に持っていくのが理想です。  
+<small>（そう出来ないケースも多いでしょうけど・・・）</small>
+
+---
+
+そんな感じで、発生した課題に対し、  
+**技術のみで解決しない方法**が、  
+ベターな選択となる事も多いです。
+
+---
+
+#### 最後に、システム導入について
+
+---
+
+物流の現場は多種多様です。  
+<br>
+自前で保有しているシステムが、  
+「現場の運用にマッチしない」  
+といった事は多々あります。
+
+---
+
+そんな時、  
+<br>
+
+ 1. 業務に合わせてシステムを変える
+ 2. システムに合わせて現場の運用を変えてもらう
+
+<br>
+<br>
+
+といった選択肢があるかと思います。
+
+---
+
+１．業務に合わせてシステムを変える
+
+---
+
+導入がスムーズに行きやすい。  
+こっちで進めてほしいと言われる事が多い。  
+
+---
+
+ただ、システムが１点ものになったり、  
+一部の機能が、完全に特定のユーザ向けに  
+なる事が多い。  
+<br>
+結果、システムが煩雑になりやすい。
+
+---
+
+２．システムに合わせて現場の運用を変えてもらう
+
+---
+
+だいたい嫌がられる。  
+調整に時間を要する事も多い。  
+<br>
+政治的に優位な立ち位置でなければ、  
+この方法が実践できないケースも多々。  
+
+---
+
+ただ、ビジネス的に大きな成功を  
+おさめるなら、こっちだと思います。  
+
+<br>
+（道は険しいとは思いますが。）
+
+---
+
+どちらが正解というものはありません。  
+<br>
+経営者もしくは責任者が、自身の判断で  
+舵を切って行くしかないと思います。
+
+---
+
+現場は生き物で、状況も刻々と変わって行ってます。  
+
+---
+
+限られたリソースの中で、何ができるか（何が提案  
+できるか）といったスキルは重要だと思います。
+
+---
+
+色々な技術が出てきているとはいえ、  
+レガシーな仕組みで泥臭くやっている  
+現場が多いのが実情です。
+
+---
+
+未来を見据えた、華やかで革新的な  
+テクノロジーが世の中を変えていく、  
+という考えも大事ですが、  
+
+---
+
+今現在、泥臭く動いている現場や、  
+日々の業務に追われている方々に目を向けて、  
+そこから改善のアプローチをしていく。  
+<br>
+という考えも重要なんじゃないかと思います。
+
+---
+
+おわり

@@ -1,0 +1,1318 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Logistic for engineers</title>
+
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- REVEAL CSS-->
+  <link rel="stylesheet" href="libs/reveal.js/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="libs/reveal.js/3.8.0/css/reveal.css">
+  
+  <link rel="stylesheet" href="libs/reveal.js/3.8.0/css/theme/serif.css" id="theme">
+  
+  
+  <link rel="stylesheet" href="libs/reveal.js/3.8.0/plugin/title-footer/title-footer-mod.css" />
+
+  <!-- MERMAID-->
+  <script src="libs/reveal.js/3.8.0/plugin/mermaid/mermaid.min.js"></script>
+  <style>
+  .mermaid {
+    font-size: 0.5em;
+  }
+  </style>
+
+  <style>
+    [class*=task-list-item] {
+    min-height: 22px;
+    margin-top: 6px!important;
+    margin-bottom: 6px!important;
+    padding-left: 0;
+    list-style: none;
+}
+
+[class*=task-list-item]>input:first-child {
+    position: absolute!important;
+    opacity: 0;
+    margin: 0;
+}
+[class*=task-list-item]>label {
+    padding-left: 29px!important;
+    min-height: 22px;
+    line-height: 22px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.task-list-item>input:first-child:checked+input[type=hidden]+label::before, .task-list-item>input:first-child:checked+label::before {
+    background-color: #ecf0f1;
+    border-color: #ecf0f1;
+}
+
+[class*=task-list-item]>input:first-child+input[type=hidden]+label::before, [class*=task-list-item]>input:first-child+label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #D3CFC8;
+    border-radius: 0;
+    margin-left: -29px;
+}
+
+
+[class*=task-list-item]>input:first-child:checked+input[type=hidden]+label::after, [class*=task-list-item]>input:first-child:checked+label::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 7px;
+    height: 10px;
+    border: 2px solid #fff;
+    border-left: none;
+    border-top: none;
+    transform: translate(7.75px,4.5px) rotate(45deg);
+    -ms-transform: translate(7.75px,4.5px) rotate(45deg);
+}
+
+
+.task-list-item>input:first-child:checked+input[type=hidden]+label::after, .task-list-item>input:first-child:checked+label::after {
+    border-bottom-color: #95a5a6;
+    border-right-color: #95a5a6;
+}
+  </style>
+
+  <!-- Theme used for syntax highlighting of code -->
+  
+  <link rel="stylesheet" href="libs/highlight.js/9.12.0/Zenburn.css">
+  
+
+  
+  <link rel="stylesheet" href="my-style.css">
+  
+  
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'libs/reveal.js/3.8.0/css/print/pdf.css' : 'libs/reveal.js/3.8.0/css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+
+  <style>
+    /* Solarized Light theme */
+     .line {
+      display: block;
+    }
+    
+
+    .line.focus {
+      background: #fdf6e3;
+      color: #657b83;
+    }
+
+/*
+    .line.focus .hljs-comment,
+    .line.focus .hljs-quote {
+      color: #93a1a1;
+    }
+
+    .line.focus .hljs-keyword,
+    .line.focus .hljs-selector-tag,
+    .line.focus .hljs-addition {
+      color: #859900;
+    }
+
+    .line.focus .hljs-number,
+    .line.focus .hljs-string,
+    .line.focus .hljs-meta .hljs-meta-string,
+    .line.focus .hljs-literal,
+    .line.focus .hljs-doctag,
+    .line.focus .hljs-regexp {
+      color: #2aa198;
+    }
+
+    .line.focus .hljs-title,
+    .line.focus .hljs-section,
+    .line.focus .hljs-name,
+    .line.focus .hljs-selector-id,
+    .line.focus .hljs-selector-class {
+      color: #268bd2;
+    }
+
+    .line.focus .hljs-attribute,
+    .line.focus .hljs-attr,
+    .line.focus .hljs-variable,
+    .line.focus .hljs-template-variable,
+    .line.focus .hljs-class .hljs-title,
+    .line.focus .hljs-type {
+      color: #b58900;
+    }
+
+    .line.focus .hljs-symbol,
+    .line.focus .hljs-bullet,
+    .line.focus .hljs-subst,
+    .line.focus .hljs-meta,
+    .line.focus .hljs-meta .hljs-keyword,
+    .line.focus .hljs-selector-attr,
+    .line.focus .hljs-selector-pseudo,
+    .line.focus .hljs-link {
+      color: #cb4b16;
+    }
+
+    .line.focus .hljs-built_in,
+    .line.focus .hljs-deletion {
+      color: #dc322f;
+    }
+
+    .line.focus .hljs-formula {
+      background: #eee8d5;
+    }
+
+    .line.focus .hljs-emphasis {
+      font-style: italic;
+    }
+
+    .line.focus .hljs-strong {
+      font-weight: bold;
+    }
+
+    .yellow-slide .line.focus:nth-child(2) {
+      background: yellow;
+    }
+
+    .reveal .slides section .code-presenting-annotation {
+      font-size: 70%;
+    }
+    */
+
+    .reveal .slides section .fragment.current-only {
+      visibility: visible;
+      display: none;
+    }
+
+    .reveal .slides section .fragment.current-only.current-fragment {
+      display: block;
+    }
+
+/*
+    .line {
+      display: block;
+    }
+*/
+    .line.focus {
+       opacity: 1.0;
+    } 
+
+    /* .hljs {
+      background: none;
+    } */
+
+    /* .reveal pre {
+      width: 98%;
+      margin: 0px;
+      box-shadow: none;
+    }
+
+    .reveal pre code {
+      font-size: 1.2em;
+      line-height: 1.2;
+      border-radius: 10px;
+      max-height: 60vh !important;
+      overflow: hidden !important;
+    } */
+
+    @media (device-width: 100vw) and (device-height: 100vh) {
+      .reveal pre code {
+        max-height: 50vh !important;
+      }
+    }
+
+    #logo img {
+      max-height: 3.5em;
+      max-width: none;
+      min-width: 50px;
+    }
+
+    .reveal .slides section .code-presenting-annotation {
+      color: white;
+      background: black;
+      padding: 0px 15px;
+      border-radius: 15px;
+      opacity: 0.75 !important;
+      font-size: 50% !important;
+    }
+  </style>
+  <script>
+    if (window.location.search.match(/print-pdf-now/gi)) {
+      window.print();
+    }
+  </script>
+</head>
+
+<body>
+  
+
+  <div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+      
+
+
+    
+    <section>
+        <section >
+            <h2><a id="user-content-logistic-for-engineers" class="anchor" href="#logistic-for-engineers" aria-hidden="true"></a>Logistic for engineers</h2>
+<br>
+<br>
+<br>
+<br>
+kakisoft
+<br>
+<p>  <img src="../assets/kakisoft_log
+.png" style="max-width: 10%;"></p>
+
+            </section>
+        
+            <section >
+                <h2><a id="user-content-fragment-styles" class="anchor" href="#fragment-styles" aria-hidden="true"></a>Fragment Styles</h2>
+<p>Highlight <strong class="red">red</strong> <strong class="fragment highlight-blue">blue</strong> <strong class="fragment highlight-green">green</strong></p>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-about-me" class="anchor" href="#about-me" aria-hidden="true"></a>about me</h3>
+<table>
+<thead>
+<tr>
+<th> </th>
+<th> </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>名前</td>
+<td>Satoru Kakinohana    <small><a href="https://kakisoft-portfolio-v2.netlify.com/">portfolio</a></small></td>
+</tr>
+<tr>
+<td>仕事</td>
+<td>Software Engineers<br><small>Specifically Logistics.<br>PHP/JavaScript/AWS etc…</small></td>
+</tr>
+<tr>
+<td>趣味</td>
+<td>escape room<small>( It is called “リアル脱出ゲーム” in Japan )</small></td>
+</tr>
+<tr>
+<td><small>Twitte account</small></td>
+<td><small><a href="https://twitter.com/kakisoft_tab">@kakisoft_tab</a></small></td>
+</tr>
+</tbody>
+</table>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-スライドの趣旨" class="anchor" href="#スライドの趣旨" aria-hidden="true"></a>スライドの趣旨</h3>
+<p>別に誰も興味持たなくてもいいし、<br>
+誰もついてこなくていいから、<br>
+自分の得意分野について話したい。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>という訳で物流の話をしたいと思います。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>主旨としては、<br>
+<br>
+<strong>「エンジニアの視点で、<br>
+物流とそのシステムについて語る」</strong><br>
+<br>
+という内容です。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>その前に、自分の経歴について、もう少し。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>バチくそ物流やってました。<br>
+<br>
+他社の物流業務を丸ごと一括して引き受け（3PLと言います）、
+倉庫と開発現場が隣接しているケースも多々ありました。<br>
+<br>
+現場や倉庫を走り回ってました。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>現場や事務所と密な連携を取りながら、<br>
+システム開発を進めてきた経験を踏まえての話です。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-免責事項" class="anchor" href="#免責事項" aria-hidden="true"></a>免責事項</h3>
+<br>
+ただ、ここで話す内容は、あくまでスライド主が  
+経験した範囲のもので、物流業界全体が  
+そうだという事を保証するものではありません。  
+<p>10 の現場があれば、10 の運用方法があります。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>まず、物流の基本。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-物流６大機能" class="anchor" href="#物流６大機能" aria-hidden="true"></a>物流６大機能</h3>
+<ul>
+<li>輸配送</li>
+<li>保管</li>
+<li>包装</li>
+<li>荷役</li>
+<li>流通加工</li>
+<li>情報処理</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-物流６大機能-1" class="anchor" href="#物流６大機能-1" aria-hidden="true"></a>物流６大機能</h3>
+<ul>
+<li><span class="right-blue">輸配送</span></li>
+<li>保管</li>
+<li>包装</li>
+<li>荷役</li>
+<li>流通加工</li>
+<li>情報処理</li>
+</ul>
+<br>  
+<br>  
+<p><strong><span class="right-blue">よく話題に挙がるのは、ここ。</span></strong></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-物流６大機能-2" class="anchor" href="#物流６大機能-2" aria-hidden="true"></a>物流６大機能</h3>
+<ul>
+<li>輸配送</li>
+<li><span class="right-blue">保管</span></li>
+<li>包装</li>
+<li><span class="right-blue">荷役</span></li>
+<li>流通加工</li>
+<li>情報処理</li>
+</ul>
+<br>  
+<br>  
+<p><strong><span class="right-blue">今日話すのは、ここ。</span></strong></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>主に、在庫管理について話したいと思います。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>超ざっくり分割すると、次の機能に分類されます。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-在庫管理システム：機能概要" class="anchor" href="#在庫管理システム：機能概要" aria-hidden="true"></a>在庫管理システム：機能概要</h3>
+<br>
+<ul>
+<li class="fragment highlight-blue">入荷</li>
+<li>出荷</li>
+<li>棚卸</li>
+<li>データ交換</li>
+<li>請求・支払</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-入荷" class="anchor" href="#入荷" aria-hidden="true"></a>入荷</h3>
+<br>
+仕入先から、商品を倉庫に入れる業務。
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>複雑化する事は、あまり多くない。<br>
+<br>
+また、いったん安定稼働に入ると、<br>
+システムが変わる事は、それほどない。<br>
+<br></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>担当エンジニアのスキルレベルは、<br>
+初級～中級でも何とかなるケースが多い。<br>
+<br>
+<strong>割くリソース：中</strong></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-在庫管理システム：機能概要-1" class="anchor" href="#在庫管理システム：機能概要-1" aria-hidden="true"></a>在庫管理システム：機能概要</h3>
+<br>
+<ul>
+<li>入荷</li>
+<li><span class="right-blue">出荷</span></li>
+<li>棚卸</li>
+<li>データ交換</li>
+<li>請求・支払</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-出荷" class="anchor" href="#出荷" aria-hidden="true"></a>出荷</h3>
+<br>
+<p>保有している商品を、<br>
+顧客や市場に向かって出す業務。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>複雑化しやすい。</p>
+<p>また、外的要因により、システムの改修が<br>
+必要となる事も多い。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>稼働後も、頻繁に変える必要があるケースも多い。<br>
+エースを投入するなら、ここ。<br>
+<br>
+<strong>割くリソース：大</strong></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-在庫管理システム：機能概要-2" class="anchor" href="#在庫管理システム：機能概要-2" aria-hidden="true"></a>在庫管理システム：機能概要</h3>
+<br>
+<ul>
+<li>入荷</li>
+<li>出荷</li>
+<li><span class="right-blue">棚卸</span></li>
+<li>データ交換</li>
+<li>請求・支払</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-棚卸" class="anchor" href="#棚卸" aria-hidden="true"></a>棚卸</h3>
+<br>
+<p>倉庫内に保有している商品の数量を<br>
+チェックする業務。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>きっちりシステム化せずとも、<br>
+何とかなるケースも多い。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>扱う商品によっては、ハンディターミナルで１つ１つ読み込ませる作業が現実的でないケースがある。<br>
+<small>（その場合は、帳票を見ながら、目視で確認する。)</small></p>
+<p>システム的な作業は、<br>
+事務所内で完結させる事も多い。<br>
+<br></p>
+<p><strong>割くリソース：小</strong></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-在庫管理システム：機能概要-3" class="anchor" href="#在庫管理システム：機能概要-3" aria-hidden="true"></a>在庫管理システム：機能概要</h3>
+<br>
+<ul>
+<li>入荷</li>
+<li>出荷</li>
+<li>棚卸</li>
+<li><span class="right-blue">データ交換</span></li>
+<li>請求・支払</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-データ交換" class="anchor" href="#データ交換" aria-hidden="true"></a>データ交換</h3>
+<br>
+<p>入荷データ・出荷データ・棚卸データ<br>
+といった電子データを、ベンダーやサードパーティと<br>
+やり取りする業務。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>重要なのは、<strong>交渉力</strong>と<strong>政治力</strong>。<br>
+<br>
+状況次第で、現場やエンジニアに<br>
+大きな負担がかかる事があります。<br>
+<br>
+自分たちが極端に不利（＝相手が一方的に楽）に<br>
+ならないようにしよう！</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>システム的に重要なのは、スピードよりも正確性。<br>
+<br></p>
+<p>「粗いが早い」エンジニアより、<br>
+「じっくり作ってバグが少ない」エンジニアの方が<br>
+この工程に向いてます。<br>
+<br>
+<strong>割くリソース：中～大</strong></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-在庫管理システム：機能概要-4" class="anchor" href="#在庫管理システム：機能概要-4" aria-hidden="true"></a>在庫管理システム：機能概要</h3>
+<br>
+<ul>
+<li>入荷</li>
+<li>出荷</li>
+<li>棚卸</li>
+<li>データ交換</li>
+<li><span class="right-blue">請求・支払</span></li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p><strong>単純化できないなら、</strong><br>
+<strong>システムでカバーしない方がいい。</strong></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>計算の仕組みが、超絶複雑となる事も多い。<br>
+<br>
+会計知識が必要だったり、妙なローカルルールに<br>
+盛大に振り回されりする事も。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>重症化すると、<strong>物流のシステム作ってるのか会計のシステム作ってるのか、分からなくなる</strong>レベルに達します。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>加えて、計算ルールがベンダーごとに違っていたり、
+ルールがコロコロ変わる事も珍しくありません。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>また、<br>
+<strong>『割高になるけど<br>
+計算がシンプルで事務作業が軽減される』</strong><br>
+という計算方法より、<br>
+<br>
+<strong>『計算が複雑怪奇でも、<br>
+安くできる（可能性がある）』</strong><br>
+計算の方が好まるケースもあります。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>そういった場合、<br>
+<br>
+「請求と支払の計算に必要な帳票は出せるように<br>
+　しているから、計算はそっちでやってね♪」<br>
+<br>
+という方向に持っていくのが理想です。<br>
+<small>（そう出来ないケースも多いでしょうけど・・・）</small></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>そんな感じで、発生した課題に対し、<br>
+<strong>技術のみで解決しない方法</strong>が、<br>
+ベターな選択となる事も多いです。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h4><a id="user-content-最後に、システム導入について" class="anchor" href="#最後に、システム導入について" aria-hidden="true"></a>最後に、システム導入について</h4>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>物流の現場は多種多様です。<br>
+<br>
+自前で保有しているシステムが、<br>
+「現場の運用にマッチしない」<br>
+といった事は多々あります。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>そんな時、<br>
+<br></p>
+<ol>
+<li>業務に合わせてシステムを変える</li>
+<li>システムに合わせて現場の運用を変えてもらう</li>
+</ol>
+<br>
+<br>
+<p>といった選択肢があるかと思います。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>１．業務に合わせてシステムを変える</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>導入がスムーズに行きやすい。<br>
+こっちで進めてほしいと言われる事が多い。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>ただ、システムが１点ものになったり、<br>
+一部の機能が、完全に特定のユーザ向けに<br>
+なる事が多い。<br>
+<br>
+結果、システムが煩雑になりやすい。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>２．システムに合わせて現場の運用を変えてもらう</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>だいたい嫌がられる。<br>
+調整に時間を要する事も多い。<br>
+<br>
+政治的に優位な立ち位置でなければ、<br>
+この方法が実践できないケースも多々。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>ただ、ビジネス的に大きな成功を<br>
+おさめるなら、こっちだと思います。</p>
+<br>
+（道は険しいとは思いますが。）
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>どちらが正解というものはありません。<br>
+<br>
+経営者もしくは責任者が、自身の判断で<br>
+舵を切って行くしかないと思います。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>現場は生き物で、状況も刻々と変わって行ってます。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>限られたリソースの中で、何ができるか（何が提案<br>
+できるか）といったスキルは重要だと思います。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>色々な技術が出てきているとはいえ、<br>
+レガシーな仕組みで泥臭くやっている<br>
+現場が多いのが実情です。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>未来を見据えた、華やかで革新的な<br>
+テクノロジーが世の中を変えていく、<br>
+という考えも大事ですが、</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>今現在、泥臭く動いている現場や、<br>
+日々の業務に追われている方々に目を向けて、<br>
+そこから改善のアプローチをしていく。<br>
+<br>
+という考えも重要なんじゃないかと思います。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>おわり</p>
+
+            </section>
+    
+
+
+    </div>
+
+
+  </div>
+
+  <script src="libs/reveal.js/3.8.0/lib/js/head.min.js"></script>
+  <script src="libs/reveal.js/3.8.0/js/reveal.js"></script>
+
+  <script>
+
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+
+        controls: true,
+        controlsTutorial: true,
+        controlsLayout: 'bottom-right',
+        controlsBackArrows: 'faded',
+        progress: true,
+        slideNumber: false,
+        history: true,
+        keyboard: true,
+        overview: true,
+        center: true,
+        touch: true,
+        loop: false,
+        rtl: false,
+        shuffle: false,
+        fragments: true,
+        fragmentInURL: false,
+        embedded: false,
+        help: true,
+        showNotes: false,
+        autoPlayMedia: false,
+        autoSlide: 0,
+        autoSlideStoppable: true,
+        autoSlideMethod: Reveal.navigateNext,
+        defaultTiming: 120,
+        mouseWheel: false,
+        hideAddressBar: true,
+        previewLinks: false,
+        transition: 'slide',
+        transitionSpeed: 'default',
+        backgroundTransition: 'default',
+        viewDistance: 3,
+        parallaxBackgroundImage: '',
+        parallaxBackgroundSize: '',
+        parallaxBackgroundHorizontal: 0,
+        parallaxBackgroundVertical: 0,
+        display: 'block',
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            // { src: 'libs/reveal.js/3.8.0/lib/js/classList.js', condition: function () { return !document.body.classList; } },
+            // { src: 'libs/reveal.js/3.8.0/plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+            // { src: 'libs/reveal.js/3.8.0/plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+            // { src: 'libs/reveal.js/3.8.0/plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+            { src: 'libs/reveal.js/3.8.0/plugin/notes/notes.js', async: true },
+            { src: 'libs/reveal.js/3.8.0/plugin/chart/Chart.min.js' },
+            { src: 'libs/reveal.js/3.8.0/plugin/chart/csv2chart.js' },
+            { src: 'libs/reveal.js/3.8.0/plugin/embed-tweet/embed-tweet.js' },
+            { src: 'libs/reveal.js/3.8.0/plugin/math/math.js', async: true },
+            { src: 'libs/highlight.js/9.12.0/highlight.js', async: true },
+            { src: 'libs/reveal.js/3.8.0/plugin/anything/anything.js' },
+            { src: 'libs/reveal.js/3.8.0/plugin/mermaid/mermaid.min.js', async: true, callback: function() {mermaid.initialize({startOnLoad:false})} },	
+
+           
+        { src: 'libs/reveal.js/3.8.0/plugin/search/search.js', async: true },
+           
+
+           
+        { src: 'libs/reveal.js/3.8.0/plugin/zoom-js/zoom.js', async: true },
+            
+
+            
+        { src: 'libs/reveal.js/3.8.0/plugin/chalkboard/chalkboard.js' },
+            
+
+            
+        { src: 'libs/reveal.js/3.8.0/plugin/menu/menu.js' },
+            
+
+            
+        { src: 'libs/reveal.js/3.8.0/plugin/title-footer/title-footer.js', async: true, callback: function () { title_footer.initialize(); } },
+            
+
+        {
+            src: 'libs/highlight.js/9.12.0/reveal-code-focus-1.0.0-mod.js',
+            async: true,
+            callback: function () {
+                RevealCodeFocus();
+            }
+        },
+            // { src: 'libs/reveal.js/3.8.0/plugin/reveal-code-focus/highlight.pack.js' },
+            // { src: 'libs/reveal.js/3.8.0/plugin/reveal-code-focus/reveal-code-focus.js', async: true, callback: function() { RevealCodeFocus(); } },
+           // {src: 'libs/reveal.js/3.8.0/plugin/line-numbers/line-numbers.js'}
+        ]
+        ,
+    keyboard: {
+        67: function () { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
+        66: function () { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
+        46: function () { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
+        8: function () { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
+        68: function () { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
+    },
+    math: {
+       // mathjax: 'libs/reveal.js/3.8.0/plugin/math/MathJax.js',
+             mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+            config: 'TeX-AMS_HTML-full'
+    },
+    chart: {
+        defaults: {
+            global: {
+                title: { fontColor: "#FFF" },
+                legend: {
+                    position: "bottom",
+                        labels: { fontColor: "#FFF" },
+                },
+                tooltips: {
+                    labels: { fontColor: "#FFF" },
+                },
+            },
+            scale: {
+                scaleLabel: { fontColor: "#FFF" },
+                gridLines: { color: "#FFF", zeroLineColor: "#FFF" },
+                ticks: { fontColor: "#FFF" },
+            }
+        },
+        line: { borderColor: ["rgba(20,220,220,.8)", "rgba(220,120,120,.8)", "rgba(20,120,220,.8)"], "borderDash": [[5, 10], [0, 0]] },
+        bar: { backgroundColor: ["rgba(20,220,220,.8)", "rgba(220,120,120,.8)", "rgba(20,120,220,.8)"] },
+        pie: { backgroundColor: [["rgba(0,0,0,.8)", "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"]] },
+        radar: { borderColor: ["rgba(20,220,220,.8)", "rgba(220,120,120,.8)", "rgba(20,120,220,.8)"] },
+    },
+    anything: [ 
+	 {
+	  className: "mermaid"
+	 },
+	 // ...
+	],
+    menu: {
+        // Specifies which side of the presentation the menu will 
+        // be shown. Use 'left' or 'right'.
+        side: 'left',
+
+            // Specifies the width of the menu.
+            // Can be one of the following:
+            // 'normal', 'wide', 'third', 'half', 'full', or
+            // any valid css length value
+            width: 'normal',
+
+                // Add slide numbers to the titles in the slide list.
+                // Use 'true' or format string (same as reveal.js slide numbers)
+                numbers: false,
+
+                    // Specifies which slide elements will be used for generating
+                    // the slide titles in the menu. The default selects the first
+                    // heading element found in the slide, but you can specify any
+                    // valid css selector and the text from the first matching
+                    // element will be used.
+                    // Note: that a section data-menu-title attribute or an element
+                    // with a menu-title class will take precedence over this option
+                    titleSelector: 'h1, h2, h3, h4, h5, h6',
+
+                        // If slides do not have a matching title, attempt to use the
+                        // start of the text content as the title instead
+                        useTextContentForMissingTitles: false,
+
+                            // Hide slides from the menu that do not have a title.
+                            // Set to 'true' to only list slides with titles.
+                            hideMissingTitles: false,
+
+                                // Adds markers to the slide titles to indicate the 
+                                // progress through the presentation. Set to 'false'
+                                // to hide the markers.
+                                markers: true,
+
+                                    // Specify custom panels to be included in the menu, by
+                                    // providing an array of objects with 'title', 'icon'
+                                    // properties, and either a 'src' or 'content' property.
+                                    // custom: false,
+                                    custom: [],
+                                        // Specifies the themes that will be available in the themes
+                                        // menu panel. Set to 'true' to show the themes menu panel
+                                        // with the default themes list. Alternatively, provide an
+                                        // array to specify the themes to make available in the
+                                        // themes menu panel, for example...
+                                        // [
+                                        //     { name: 'Black', theme: 'css/theme/black.css' },
+                                        //     { name: 'White', theme: 'css/theme/white.css' },
+                                        //     { name: 'League', theme: 'css/theme/league.css' }
+                                        // ]
+                                        themes: false,
+
+                                            // Specifies the path to the default theme files. If your
+                                            // presentation uses a different path to the standard reveal
+                                            // layout then you need to provide this option, but only
+                                            // when 'themes' is set to 'true'. If you provide your own 
+                                            // list of themes or 'themes' is set to 'false' the 
+                                            // 'themesPath' option is ignored.
+                                            themesPath: 'css/theme/',
+
+                                                // Specifies if the transitions menu panel will be shown.
+                                                // Set to 'true' to show the transitions menu panel with
+                                                // the default transitions list. Alternatively, provide an
+                                                // array to specify the transitions to make available in
+                                                // the transitions panel, for example...
+                                                // ['None', 'Fade', 'Slide']
+                                                transitions: false,
+
+                                                    // Adds a menu button to the slides to open the menu panel.
+                                                    // Set to 'false' to hide the button.
+                                                    openButton: true,
+
+                                                        // If 'true' allows the slide number in the presentation to
+                                                        // open the menu panel. The reveal.js slideNumber option must 
+                                                        // be displayed for this to take effect
+                                                        openSlideNumber: false,
+
+                                                            // If true allows the user to open and navigate the menu using
+                                                            // the keyboard. Standard keyboard interaction with reveal
+                                                            // will be disabled while the menu is open.
+                                                            keyboard: true,
+
+                                                                // Normally the menu will close on user actions such as
+                                                                // selecting a menu item, or clicking the presentation area.
+                                                                // If 'true', the sticky option will leave the menu open
+                                                                // until it is explicitly closed, that is, using the close
+                                                                // button or pressing the ESC or m key (when the keyboard 
+                                                                // interaction option is enabled).
+                                                                sticky: false,
+
+                                                                    // If 'true' standard menu items will be automatically opened
+                                                                    // when navigating using the keyboard. Note: this only takes 
+                                                                    // effect when both the 'keyboard' and 'sticky' options are enabled.
+                                                                    autoOpen: true,
+
+                                                                        // If 'true' the menu will not be created until it is explicitly
+                                                                        // requested by calling RevealMenu.init(). Note this will delay
+                                                                        // the creation of all menu panels, including custom panels, and
+                                                                        // the menu button.
+                                                                        delayInit: false,
+
+                                                                            // If 'true' the menu will be shown when the menu is initialised.
+                                                                            openOnInit: false,
+
+                                                                                // By default the menu will load it's own font-awesome library
+                                                                                // icons. If your presentation needs to load a different
+                                                                                // font-awesome library the 'loadIcons' option can be set to false
+                                                                                // and the menu will not attempt to load the font-awesome library.
+                                                                                loadIcons: false
+    },
+    chalkboard: {
+        toggleChalkboardButton: { left: "60px", bottom: "30px", top: "auto", right: "auto" },
+        toggleNotesButton: { left: "90px", bottom: "30px", top: "auto", right: "auto" },
+
+    }
+    });
+
+
+
+</script>
+</body>
+
+</html>

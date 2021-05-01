@@ -1,5 +1,5 @@
-.reveal h2 {
-    font-size: 1.6em;
+.reveal h2, h3, h4 {
+    text-transform:none;
 }
 
 /*
