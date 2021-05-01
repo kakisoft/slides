@@ -13,4 +13,7 @@ slide
 <https://kakisoft.github.io/slide/logistic-for-engineers-en/export/index.html>
 
 
+## 物流と在庫管理のシステムについて語りたい
+<https://kakisoft.github.io/slide/logistic-for-engineers-ja/export/index.html>
+
 
