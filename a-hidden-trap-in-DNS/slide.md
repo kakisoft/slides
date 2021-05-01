@@ -1,6 +1,6 @@
 ---
-theme　: "black"
-transition　: "default"
+theme　: "white"
+c: "default"
 customTheme : "my-style"
 title : "A hidden trap in DNS"
 ---

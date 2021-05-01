@@ -1,9 +1,10 @@
 ---
-theme　: "black"
-transition　: "default"
-customTheme : "my-style"
-title : "Logistic for engineers"
-rtl: false
+theme : "solarized"
+transition: "slide"
+highlightTheme: "monokai"
+logoImg: "logo.png"
+slideNumber: false
+title: "VSCode Reveal intro"
 ---
 ## Logistic for engineers
 
@@ -13,6 +14,7 @@ rtl: false
 <br>
 kakisoft
 <br>
+
 &nbsp;&nbsp;<img src="../assets/kakisoft_log
 .png" style="max-width: 10%;">
 

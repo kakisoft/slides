@@ -10,7 +10,7 @@ slide
 
 
 ## Logistic for engineers
-<https://kakisoft.github.io/slide/logistic-for-engineers/export/index.html>
+<https://kakisoft.github.io/slide/logistic-for-engineers-en/export/index.html>
 
 
 

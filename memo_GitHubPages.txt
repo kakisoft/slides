@@ -1,31 +1,31 @@
 GitHub Pages
 
 ## githubpages にデプロイしたのに 404
-githabpages は、1つの階層における文字数に制限がある？
+githabpages は、1つの階層における文字数に制限がある？  
 
-accounting_for_engineers だと 404 となってしまったが
-accounting_for_engineer  だと OKだった。
+accounting_for_engineers だと 404 となってしまったが  
+accounting_for_engineer  だと OKだった。  
 
-accounting_for_engineera
-accounting_for_engineerx
-でも 404 だったので、単純に文字数の問題だけではないかと思われる。（MAX 23文字）
+accounting_for_engineera  
+accounting_for_engineerx  
+でも 404 だったので、単純に文字数の問題だけではないかと思われる。（MAX 23文字）  
 
-・・・と考えていたが、以下だと OKだった。（24～26 文字）
-abcdefghijklmnopqrstuvwx
-abcdefghijklmnopqrstuvwxy
-abcdefghijklmnopqrstuvwxyz
+・・・と考えていたが、以下だと OKだった。（24～26 文字）  
+abcdefghijklmnopqrstuvwx  
+abcdefghijklmnopqrstuvwxy  
+abcdefghijklmnopqrstuvwxyz  
 
-「 _ 」（アンダーバー）が悪いのか？
-ということで、「 - 」（ハイフン）で繋げてみる。
+「 _ 」（アンダーバー）が悪いのか？  
+ということで、「 - 」（ハイフン）で繋げてみる。 
 
-accounting-for-engineer
-accounting-for-engineers
+accounting-for-engineer  
+accounting-for-engineers  
 
-OK だった！
-と言う事で、githubpages で公開する時は、フォルダ名は
-「 _ 」（アンダーバー）を使わず、「 - 」を使う事にする。
+OK だった！  
+と言う事で、githubpages で公開する時は、フォルダ名は  
+「 _ 」（アンダーバー）を使わず、「 - 」を使う事にする。  
 
-マニュアルのどこかに書いてそうな気がするんで、見つけたら追記する。
+マニュアルのどこかに書いてそうな気がするんで、見つけたら追記する。  
 
 
 
