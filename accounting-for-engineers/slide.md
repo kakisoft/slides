@@ -1,6 +1,6 @@
 ---
 theme　: "black"
-transition　: "default"
+transition: "slide"
 customTheme : "my-style"
 title : "Accounting for engineers"
 ---
