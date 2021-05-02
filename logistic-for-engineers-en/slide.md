@@ -39,17 +39,21 @@ You use deductive skill and inspiration and team work, then solve challenging pu
 
 ---
 
-（作成中）  
-
-まず、私の経歴について、少しお話をさせていただきます。  
-First, I am going to talk a little more about my background.  
+First, I am going to talk a little more about my background.
 
 ---
 
-（作成中）  
+I'm software engineer. Especially, I created many logistic systems.
 
-エンジニアとしてだけではなく、物流の仕事をする人間として、長年携わってきました。  
-I have been working not only as an engineer but also as a logistic worker.   
+---
+
+I have experiences in launch and stabilization of warehouse management systems.
+
+So, I'm a software engineer and also logistics specialist.
+
+---
+
+This presentation is based on my expertise in logistics.
 
 ---
 
@@ -373,10 +377,15 @@ It is important to suggest what you can do with limited resources.
 
 ---
 
+But, many logistic sites are working on old systems and mechanism.
 
-（作成中）
+---
 
+The idea that innovative technologies change the world is important.
 
+---
+
+It is important to fucus on current chaotic environment and the workers who are busy with their daily task, and to explore more efficient method.
 
 ---
 

@@ -10,6 +10,11 @@ So, I'm a software engineer and also logistics specialist.
 このプレゼンは、それらの知見を元にした資料となっております。
 This presentation is based on my expertise in logistics.
 
+________________________________________________________________________________
+（没）
+
+エンジニアとしてだけではなく、物流の仕事をする人間として、長年携わってきました。  
+I have been working not only as an engineer but also as a logistic worker.   
 
 ________________________________________________________________________________
 ただ、ここで話す内容は、あくまでスライド主が  
