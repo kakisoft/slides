@@ -13,10 +13,10 @@
  * 流通加工  Distribution processing
  * 情報処理 information communication and  technology
 
+information_processing
 
 
-
-JIS（日本工業規格）Z0111:2006でITも入ってるでしょう
+JIS（日本工業規格）Z0111:2006 でITも入ってるでしょう
 
 https://kikakurui.com/z0/Z0111-2006-01.html
 
