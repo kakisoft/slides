@@ -1,3 +1,17 @@
+私は、ソフトウェアアンジニアで、特に物流のシステムについて、数多く関わってきました。
+I'm software engineer. Especially, I created many logistic systems.
+
+在庫管理のシステムであれば、立ち上げから運用保守まで、一通りの経験があります。
+I have experiences in launch and stabilization of warehouse management systems.
+
+なので、私は、ソフトウェアエンジニアであるけでなく、物流のプロでもあります。
+So, I'm a software engineer and also logistics specialist.
+
+このプレゼンは、それらの知見を元にした資料となっております。
+This presentation is based on my expertise in logistics.
+
+
+________________________________________________________________________________
 ただ、ここで話す内容は、あくまでスライド主が  
 経験した範囲のもので、物流業界全体が  
 そうだという事を保証するものではありません。  
@@ -495,6 +509,39 @@ Situations change day by day.
 限られたリソースの中で、何が提案できるのか、という事は重要です。
 It is important to suggest what you can do with limited resources.
 
+
+
+色々な技術が出てきているとはいえ、  
+レガシーな仕組みで泥臭くやっている  
+現場が多いのが実情です。
+But, many logistic sites are working on old systems and mechanism.
+
+
+
+未来を見据えた、華やかで革新的なテクノロジーが世の中を変えていく、という考えも大事ですが、
+今現在、泥臭く動いている現場や、日々の業務に追われている方々に目を向けて、そこから改善のアプローチをしていく。
+
+という考えも重要ではないかと思います。
+
+
+未来を見据えた、華やかで革新的なテクノロジーが世の中を変えていく、という考えも大事ですが、
+The idea that innovative technologies change the world is important.
+
+
+The xxxxxx is important too.
+
+xxxxxx
+
+今現在、泥臭く動いている現場や、日々の業務に追われている方々に目を向けて、そこから改善のアプローチをしていく。
+
+という考えも重要ではないかと思います。
+But, it is important to fucus on current chaotic environment and the workers who are busy with their daily task.
+
+そして、そこから改善のアプローチをしていく、という考えが重要ではないかと思います。
+
+
+
+It is important to fucus on current chaotic environment and the workers who are busy with their daily task, and to explore more efficient method.
 
 
 
