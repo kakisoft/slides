@@ -322,13 +322,21 @@ If you encounter such sutiation, you will choose one of these options.
 
 ---
 
- 1. Change the systems to suit the work style.
+### System introduction pattern
+<br>
 
- 2. Change work style to suit the systems.
+ * case 1 : Change the systems to suit the work style.
+
+ * case 2 : Change work style to suit the systems.
 
 ---
 
-### Case 1. Change the systems to suit the work style.
+### System introduction pattern
+<br>
+
+ * <span class="right-blue">case 1 : Change the systems to suit the work style.</span>
+
+ * case 2 : Change work style to suit the systems.
 
 ---
 
@@ -344,7 +352,12 @@ As a result, the system will be complex.
 
 ---
 
-### Case 2. Change work style to suit the systems.
+### System introduction pattern
+<br>
+
+ * case 1 : Change the systems to suit the work style.
+
+ * <span class="right-blue">case 2 : Change work style to suit the systems.</span>
 
 ---
 
