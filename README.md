@@ -1,12 +1,10 @@
 # slides
 slides
+____________________________________________________________________________________
+# English
 
 ## Logistic for engineers
 <https://kakisoft.github.io/slides/logistic-for-engineers-en/export/index.html>
-
-
-## 物流と在庫管理のシステムについて語りたい
-<https://kakisoft.github.io/slides/logistic-for-engineers-ja/export/index.html>
 
 
 ## accounting for engineers
@@ -15,6 +13,12 @@ slides
 
 ## A hidden trap in DNS
 <https://kakisoft.github.io/slides/a-hidden-trap-in-DNS/export/index.html>
+
+____________________________________________________________________________________
+# 日本語
+
+## 物流と在庫管理のシステムについて語りたい
+<https://kakisoft.github.io/slides/logistic-for-engineers-ja/export/index.html>
 
 
 ## 【倉庫内無線LAN環境】アンドロイド端末で無料通話をしてみよう
