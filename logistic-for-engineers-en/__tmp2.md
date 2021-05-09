@@ -595,3 +595,140 @@ I guess the method is effective.
 
 where you can go
 
+
+====================================================================================
+====================================================================================
+====================================================================================
+
+
+I’m software engineer. Especially, I created many logistic systems.
+I’m a software engineer. Especially, I created many logistic systems.
+
+
+I have experiences in launch and stabilization of warehouse management systems.
+I have experiences in launching and stabilization of warehouse management systems.
+
+
+So, I’m a software engineer and also logistics specialist.
+So, I’m a software engineer and also a logistics specialist.
+
+
+
+First, I will explain 6 main categories in logistics
+To start with, I will explain 6 main categories in logistics.
+
+
+They are
+Transport and delivery
+Storage
+Packaging
+Cargo handling
+Distribution processing
+and Data processing
+
+
+
+This presentation explains two out of all categories
+This presentation explains two of them
+
+
+
+as follows:
+They are as follows:
+
+
+
+resources required
+Resources required
+
+
+intermediate
+Intermediate
+
+
+Shipment is the process of bring out some
+Shipment is the process of bringing out some
+
+
+the system’s’ 
+
+
+chekiang
+checking
+
+
+
+In that case, you check the inventory by looking while look some statement.
+
+
+In that case, you check the inventory by eye while looking some statement.
+
+
+while の後はどう名詞が多い
+
+
+
+The most important points in this process are negotiation skill and political skill
+The most important points in this process are negotiation skill and political skill
+
+
+If you want to avoid these outcome
+If you want to avoid these outcomes
+
+When you create this function, Accuracy 
+When you create this function, acuracy 
+
+intermediate to high
+Intermediate to high
+
+
+In some cases, you are required to have knowledge of accounting.
+You are often swayed by strange local rules.
+
+
+If this rule is too complex, you feel you are creating account system
+accounting system
+
+
+
+In addition, Some customer
+In addition, Some customers
+
+
+
+Some cases, you have to change 
+In some cases, you have to change 
+
+
+In some cases,
+“complex calculation method with more office work which may be cheap depending on patten”
+-> sometimes, at times
+
+
+
+As discussed, for some cases you shouldn’t use only techlogy
+
+solove
+
+
+
+WMS
+Warehouse Management System
+
+
+
+But, if you accept the request, the system will have the specific function for indivisual 
+
+
+
+And also, if your company don’t
+And also, if your company doesn't
+
+
+But, if you choose this way, you have to work hard.
+When you choose this way, you have to work hard.
+
+
+
+It is important to fucus on current chaotic environment and the workers who are busy with their daily task, and to explore more efficient method
+focus
