@@ -43,13 +43,13 @@ First, I am going to talk a little more about my background.
 
 ---
 
-I'm software engineer. Especially, I created many logistic systems.
+I'm a software engineer. Especially, I created many logistic systems.
 
 ---
 
-I have experiences in launch and stabilization of warehouse management systems.
+I have experiences in launching and stabilization of warehouse management systems.
 
-So, I'm a software engineer and also logistics specialist.
+So, I'm a software engineer and also a logistics specialist.
 
 ---
 
@@ -63,7 +63,7 @@ It's case by case.
 
 ---
 
-First, I will explain 6 main categories	in logistics.
+To start with, I will explain 6 main categories	in logistics.
 
 ---
 
