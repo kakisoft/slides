@@ -664,7 +664,7 @@ In that case, you check the inventory by looking while look some statement.
 In that case, you check the inventory by eye while looking some statement.
 
 
-while の後はどう名詞が多い
+while の後は動名詞が多い
 
 
 

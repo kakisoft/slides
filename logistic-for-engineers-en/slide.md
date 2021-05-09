@@ -79,7 +79,7 @@ To start with, I will explain 6 main categories	in logistics.
 
 ---
 
-This presentation explains two out of all categories.
+This presentation explains two of them.
 
 ### 6 main categories in logistics.
 <br>
@@ -99,7 +99,7 @@ I will talk about warehouse management system.
 
 Warehouse management system has these functions.
 
-as follows:
+They are as follows:
 
 ---
 
@@ -140,7 +140,7 @@ You can assign junior and middle level engineers to  the tasks.
 
 <br>
 
-<big>**resources required : intermediate**</big>
+<big>**Resources required : Intermediate**</big>
 
 ---
 
@@ -157,7 +157,7 @@ You can assign junior and middle level engineers to  the tasks.
 ### Shipment
 <br>
 
-Shipment is the process of bring out some items from warehouses to customers.
+Shipment is the process of bringing out some items from warehouses to customers.
 
 ---
 
@@ -167,13 +167,13 @@ And, sometimes we have to adjust the system because of the clients' circumstance
 
 ---
 
-Even if you launch the system, it is common you have to modify the system's' function.
+Even if you launch the system, it is common you have to modify the system's function.
 
 You should assign the ace to this function.
 
 <br>
 
-<big>**resources required : high**</big>
+<big>**Resources required : High**</big>
 
 ---
 
@@ -189,7 +189,7 @@ You should assign the ace to this function.
 
 ### Stock taking
 
-Stock taking is the process of chekiang number of items in warehouses.
+Stock taking is the process of checking number of items in warehouses.
 
 ---
 
@@ -203,7 +203,7 @@ But, there are cases when it is not realistic to read barcode of each item in a 
 
 ---
 
-In that case, you check the inventory by looking while look some statement.
+In that case, you check the inventory by eye while looking some statement.
 
 ---
 
@@ -211,7 +211,7 @@ In many cases, you can finish only office work.
 
 <br>
 
-<big>**resources required : low**</big>
+<big>**Resources required : low**</big>
 
 ---
 
@@ -239,17 +239,17 @@ The most important points in this process are <big>**negotiation skill**</big> a
 
 If you accept clients' offer without question, your company's work will drastically increase.
 
-If you want to avoid these outcome, project manager is required to have negotiation skill.
+If you want to avoid these outcomes, project manager is required to have negotiation skill.
 
 ---
 
-When you create this function, Accuracy is more important than development speed.
+When you create this function, accuracy is more important than development speed.
 
 A careful engineer who has few bugs is more suitable for this process than a careless engineer who can make it quickly.
 
 <br>
 
-<big>**resources required : intermediate to high**</big>
+<big>**Resources required : Intermediate to high**</big>
 
 ---
 
@@ -267,26 +267,28 @@ If you can't simplify it, you shouldn't add this function.
 
 ---
 
-In some cases, you are required to have knowledge of accounting, and swayed by strange local rules.
+In some cases, you are required to have knowledge of accounting.
+
+You are often swayed by strange local rules.
 
 ---
 
-If this rule is too complex, you feel you are creating account system, rather than logistic system.
+If this rule is too complex, you feel you are creating accounting system, rather than logistic system.
 
 ---
 
-In addition, Some customer have own calculation rules.
+In addition, some customers have own calculation rules.  
 And, sometimes they change the rules.
 
 ---
 
 It is hard to catch up with the rules.
 
-Some cases, you have to change the calculation logic drastically.
+In some cases, you have to change the calculation logic drastically.
 
 ---
 
-In some cases,   
+Sometimes,   
 
 "complex calculation method with more office work which may be cheap depending on patten"
 
@@ -302,11 +304,11 @@ But, It often doesn't work well according to your ideal.
 
 ---
 
-As discussed, for some cases you shouldn't use only techlogy when you solove the customers problem.
+As discussed, for some cases you shouldn't use only techlogy when you solve the customers problem.
 
 ---
 
-lastly, I want to speak about when you launch WMS system.
+lastly, I want to speak about when you launch Warehouse Management System.
 
 ---
 
@@ -346,7 +348,7 @@ Many customers request this style.
 
 ---
 
-But, if you accept the request, the system will have the specific function for indivisual customer.  
+But, if you accept the request, the system will have the specific function for individual customer.  
 
 As a result, the system will be complex.
 
@@ -367,11 +369,11 @@ You can spend long time to persuade them.
 
 ---
 
-And also, if your company don't have political power, you often can't do this method.
+And also, if your company doesn't have political power, you often can't do this method.
 
 But, if you want to get a big success in business, you should do this method.
 
-But, if you choose this way, you have to work hard.
+When you choose this way, you have to work hard.
 
 ---
 
@@ -398,7 +400,7 @@ The idea that innovative technologies change the world is important.
 
 ---
 
-It is important to fucus on current chaotic environment and the workers who are busy with their daily task, and to explore more efficient method.
+It is important to focus on current chaotic environment and the workers who are busy with their daily task, and to explore more efficient method.
 
 ---
 
