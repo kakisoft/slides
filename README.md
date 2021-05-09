@@ -15,7 +15,7 @@ ________________________________________________________________________________
 <https://kakisoft.github.io/slides/a-hidden-trap-in-DNS/export/index.html>
 
 ____________________________________________________________________________________
-# 日本語
+# 日本語で作成したスライド
 
 ## 物流と在庫管理のシステムについて語りたい
 <https://kakisoft.github.io/slides/logistic-for-engineers-ja/export/index.html>
