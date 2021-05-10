@@ -24,3 +24,7 @@ ________________________________________________________________________________
 ## 【倉庫内無線LAN環境】アンドロイド端末で無料通話をしてみよう
 <https://kakisoft.github.io/slides/lets-try-asterisk/export/index.html>
 
+
+## AppHarborを使って.NETアプリを無料デプロイ！
+<https://kakisoft.github.io/slides/lets-try-dotnet-application-with-appharbor-for-free/export/index.html>
+
