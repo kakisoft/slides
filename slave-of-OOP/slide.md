@@ -280,8 +280,6 @@ https://csv-to-table.netlify.com/
 　  
 [チンケなアプリを作って実感した、「個人開発って、物凄い事なんじゃないのか？」という事。](https://kaki-engine.com/theddifficulty-of-personal-development/)  
 　  
-【制作過程の雑多な記録（ブログ）】   
-[https://kaki-note-02.netlify.app/](https://kaki-note-02.netlify.app/)  
 
 ---
 
