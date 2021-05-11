@@ -25,7 +25,7 @@ ________________________________________________________________________________
 <https://kakisoft.github.io/slides/lets-try-asterisk/export/index.html>
 
 
-## 「Vue.js 分からーん！」と感じていたのは、自分が<br>『オブジェクト指向の奴隷』<br>だったんだと気がついた話。
+## 「Vue.js 分からーん！」と感じていたのは、自分が『オブジェクト指向の奴隷』だったんだと気がついた話。
 <https://kakisoft.github.io/slides/slave-of-OOP/export/index.html>
 
 
