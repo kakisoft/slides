@@ -36,3 +36,7 @@ ________________________________________________________________________________
 ## スマートスピーカーを英語学習に活用してみる
 <https://kakisoft.github.io/slides/leaning-english-with-smart-speaker/export/index.html>
 
+
+## Windowsユーザに厳しいWebの世界 ～ほとんどのエンジニアには解けるが、下位10％のダメなエンジニアにだけ解けないパズル？～
+<https://kakisoft.github.io/slides/tough-world-for-windows-user/export/index.html>
+
