@@ -32,3 +32,7 @@ ________________________________________________________________________________
 ## AppHarborを使って.NETアプリを無料デプロイ！
 <https://kakisoft.github.io/slides/lets-try-dotnet-application-with-appharbor-for-free/export/index.html>
 
+
+## スマートスピーカーを英語学習に活用してみる
+<https://kakisoft.github.io/slides/leaning-english-with-smart-speaker/export/index.html>
+
