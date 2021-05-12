@@ -40,3 +40,7 @@ ________________________________________________________________________________
 ## Windowsユーザに厳しいWebの世界 ～ほとんどのエンジニアには解けるが、下位10％のダメなエンジニアにだけ解けないパズル？～
 <https://kakisoft.github.io/slides/tough-world-for-windows-user/export/index.html>
 
+
+## 俺式情報整理術
+<https://kakisoft.github.io/slides/my-method-of-organizing-information/export/index.html>
+
