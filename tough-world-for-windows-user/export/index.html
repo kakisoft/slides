@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>スマートスピーカーを英語学習に活用してみる</title>
+  <title>Windowsユーザに厳しいWebの世界 ～ほとんどのエンジニアには解けるが、下位10％のダメなエンジニアにだけ解けないパズル？～</title>
 
   <meta name="description" content="">
   <meta name="author" content="">
@@ -277,7 +277,8 @@
     
         <section >
             
-            <h3><a id="user-content-スマートスピーカーを英語学習に活用してみる" class="anchor" href="#スマートスピーカーを英語学習に活用してみる" aria-hidden="true"></a>スマートスピーカーを英語学習に活用してみる</h3>
+            <h4><a id="user-content-windowsユーザに厳しいwebの世界" class="anchor" href="#windowsユーザに厳しいwebの世界" aria-hidden="true"></a>Windowsユーザに厳しいWebの世界</h4>
+<h4><a id="user-content-～-ほとんどのエンジニアには解けるが、下位10％のダメなエンジニアにだけ解けないパズル？-～" class="anchor" href="#～-ほとんどのエンジニアには解けるが、下位10％のダメなエンジニアにだけ解けないパズル？-～" aria-hidden="true"></a>～ ほとんどのエンジニアには解けるが、下位10％のダメなエンジニアにだけ解けないパズル？ ～</h4>
 <br>
 <br>
 <br>
@@ -334,8 +335,9 @@ kakisoft
     
         <section >
             
-            <p>エンジニアって、<br>
-英語を勉強している人多いですよね。</p>
+            <p>発端はこれ。<br>
+<img src="./assets/001.png"/></p>
+<p><a href="http://tango-ruby.hatenablog.com/entry/2015/11/30/122814">http://tango-ruby.hatenablog.com/entry/2015/11/30/122814</a></p>
 
             </section>
     
@@ -345,8 +347,11 @@ kakisoft
     
         <section >
             
-            <p>でも、英語で話しかけるのって<br>
-抵抗ある事も多いですよね。</p>
+            <h3><a id="user-content-これは？" class="anchor" href="#これは？" aria-hidden="true"></a>これは？</h3>
+<br>
+<p>ベルリンのスタートアップに勤務している日本人エンジニア、<a href="https://jabba.cloud/">ジャバ・ザ・ハットリ</a>さんが、<br>
+シンガポールに勤務していた頃に作成した、<br>
+候補者を振るいにかけるためのパズル。</p>
 
             </section>
     
@@ -356,8 +361,10 @@ kakisoft
     
         <section >
             
-            <p>そんな場合、<br>
-スマートスピーカーに話しかけるのはどうでしょう？</p>
+            <h4><a id="user-content-どんなクイズ？" class="anchor" href="#どんなクイズ？" aria-hidden="true"></a>どんなクイズ？</h4>
+<br>
+<p>API を叩き、いくつかの関門を突破して行けば、<br>
+正解に辿り着けるクイズ。</p>
 
             </section>
     
@@ -367,8 +374,9 @@ kakisoft
     
         <section >
             
-            <p>今回、登場してもらうのは、こちら。</p>
-<p>Google Home</p>
+            <img src="./assets/002.png"/>  
+<p>curl使えばいいよ！という<br>
+出題者からのヒント。</p>
 
             </section>
     
@@ -378,14 +386,44 @@ kakisoft
     
         <section >
             
-            <p>アプリの検索はこれが便利。
+            <p>しかし、Windowsでcurlを叩くという行為は、<br>
+実は、それなりにハードルが高い。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <img src="./assets/003.png"/>  
+<p>まず、コマンドプロンプトからは使えない。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>Power Shell 使えば行けるんじゃね？</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>Power Shellの curlは、<br>
+「Invoke-WebRequest」のエイリアスで、<br>
+curlとは挙動が異なる。<br>
 　<br>
-　<br>
-【SmartHacks DataBank】<br>
-<a href="https://smarthacks.jp/db/">https://smarthacks.jp/db/</a>
-　<br>
-　<br>
-Amazon Echo、LINE Clova の検索もできます。</p>
+そのためか、第二関門あたりで行き詰り、<br>
+正解までたどり着くことが出来ない。</p>
 
             </section>
     
@@ -395,7 +433,8 @@ Amazon Echo、LINE Clova の検索もできます。</p>
     
         <section >
             
-            <p>とりあえず、次のアプリを試してみました。</p>
+            <p>なので、サードパーティ製のツールに<br>
+頼る事になる。</p>
 
             </section>
     
@@ -405,18 +444,32 @@ Amazon Echo、LINE Clova の検索もできます。</p>
     
         <section >
             
-            <h3><a id="user-content-使ってみたアプリ（９種）" class="anchor" href="#使ってみたアプリ（９種）" aria-hidden="true"></a>使ってみたアプリ（９種）</h3>
+            <img src="./assets/004.png"/>  
+<p>Postmanを使えば解けます。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>でも、出題者の意図通り、curlで解いてみたい。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h4><a id="user-content-とりあえず、以下の選択肢。" class="anchor" href="#とりあえず、以下の選択肢。" aria-hidden="true"></a>とりあえず、以下の選択肢。</h4>
 <p></p>
 <ul>
-<li><a href="https://assistant.google.com/services/a/uid/0000004c46922071?hl=ja">英語フレーズリピーター</a></li>
-<li><a href="https://assistant.google.com/services/a/uid/00000053df2f05b0?hl=ja">和英翻訳とクイズ</a></li>
-<li><a href="https://assistant.google.com/services/a/uid/0000007be9e61038?hl=ja">教えてピーター</a></li>
-<li><a href="https://assistant.google.com/services/a/uid/000000926e4866ac?hl=ja">こども英会話</a></li>
-<li><a href="https://assistant.google.com/services/a/uid/00000083a746a293?hl=ja">えいごであそぼ with Orton</a></li>
-<li><a href="https://assistant.google.com/services/a/uid/00000059bc840700?hl=ja">Jump-Start!瞬時英訳</a></li>
-<li><a href="https://assistant.google.com/services/a/uid/00000098a27a45b3?hl=ja">レアジョブイングリッシュ</a></li>
-<li><a href="https://assistant.google.com/services/a/uid/0000009c6585654d?hl=ja">とっさの旅英語</a></li>
-<li><a href="https://assistant.google.com/services/a/uid/0000007a92874042?hl=ja">Best Teacher</a></li>
+<li>Virtual Boxにインストールした Linuxを使う</li>
+<li>Windows Subsystem for Linux（旧名：Bash on Ubuntu on Windows）を使う</li>
 </ul>
 
             </section>
@@ -427,16 +480,111 @@ Amazon Echo、LINE Clova の検索もできます。</p>
     
         <section >
             
-            <h4><a id="user-content-実用性が無かったと思った" class="anchor" href="#実用性が無かったと思った" aria-hidden="true"></a>実用性が無かったと思った</h4>
-<h4><a id="user-content-アプリ（５種）" class="anchor" href="#アプリ（５種）" aria-hidden="true"></a>アプリ（５種）</h4>
-<p></p>
+            <p>しかし、これだと厳密には<br>
+Windowsを使っているとは言えない。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>何とか、<br>
+　<br>
+「Windowsで」<br>
+「curlを使って」<br>
+　<br>
+解きたい！</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>そして、辿り着いた答え。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <img src="./assets/005.png"/>  
+<h4><a id="user-content-git-bush！" class="anchor" href="#git-bush！" aria-hidden="true"></a>git bush！</h4>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>無事に正解に辿り着けました！</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>これなら、インストールされている可能性は<br>
+極めて高い！<br>
+　<br>
+正攻法として使って行けそうだ！</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>こんな感じで、<br>
+「curlでAPIを叩いて、○×△□する」という、<br>
+Webエンジニアにとっては何でもない行為でも、<br>
+Windowsユーザにとっては、<br>
+それなりにハードルが高かったりします。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>ちなみにこのクイズ、<br>
+Windowsアプリ開発がメインで、<br>
+普段 Windowsしか触らない開発者は、<br>
+<strong>かなり落とせる</strong>と思います。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h4><a id="user-content-その他、windows辛みポイント" class="anchor" href="#その他、windows辛みポイント" aria-hidden="true"></a>その他、Windows辛みポイント</h4>
+<br>
 <ul>
-<li>英語フレーズリピーター</li>
-<li>和英翻訳とクイズ</li>
-<li>教えてピーター</li>
-<li>えいごであそぼ with Orton</li>
-<li>Jump-Start!瞬時英訳</li>
+<li>Home Editionでは Dockerが使えない。</li>
+<li>Vagrantを使い、ホストとゲストの共有ディレクトリを作業場所にしていると、npmがコケる。</li>
+<li>pyenvが使えない。</li>
 </ul>
+<p>など、開発環境の構築では、苦労が多い印象。</p>
 
             </section>
     
@@ -446,8 +594,7 @@ Amazon Echo、LINE Clova の検索もできます。</p>
     
         <section >
             
-            <p>多いんで、個別の理由については<br>
-割愛します。</p>
+            <p>という訳で、</p>
 
             </section>
     
@@ -457,14 +604,8 @@ Amazon Echo、LINE Clova の検索もできます。</p>
     
         <section >
             
-            <h4><a id="user-content-最初は使ってたけど、" class="anchor" href="#最初は使ってたけど、" aria-hidden="true"></a>最初は使ってたけど、</h4>
-<h4><a id="user-content-すぐに使わなくなった（３種）" class="anchor" href="#すぐに使わなくなった（３種）" aria-hidden="true"></a>すぐに使わなくなった（３種）</h4>
-<p></p>
-<ul>
-<li>レアジョブイングリッシュ</li>
-<li>Best Teacher</li>
-<li>こども英会話</li>
-</ul>
+            <p>Mac OS 買いに行くんで、<br>
+誰か付き合ってください！</p>
 
             </section>
     
@@ -474,12 +615,7 @@ Amazon Echo、LINE Clova の検索もできます。</p>
     
         <section >
             
-            <h3><a id="user-content-レアジョブイングリッシュ" class="anchor" href="#レアジョブイングリッシュ" aria-hidden="true"></a>レアジョブイングリッシュ</h3>
-<br>
-<p>英語ニュースの垂れ流し。<br>
-別にスマートスピーカーで<br>
-聴く必要はないような・・・<br>
-個人的に、文字を見れないとちょっと困る。</p>
+            <p>そして、</p>
 
             </section>
     
@@ -489,11 +625,9 @@ Amazon Echo、LINE Clova の検索もできます。</p>
     
         <section >
             
-            <h3><a id="user-content-best-teacher" class="anchor" href="#best-teacher" aria-hidden="true"></a>Best Teacher</h3>
-<br>
-<p>TOEICの問題解いていく感じ。<br>
-同様に、スマートスピーカーで<br>
-やる必要性を感じなかった。</p>
+            <p>興味が沸いた方は、是非挑戦してみて下さい！</p>
+<h4><a id="user-content-『ほとんどのエンジニアには解けるが、下位10％のダメなエンジニアにだけ解けないパズル？』" class="anchor" href="#『ほとんどのエンジニアには解けるが、下位10％のダメなエンジニアにだけ解けないパズル？』" aria-hidden="true"></a>『ほとんどのエンジニアには解けるが、下位10％のダメなエンジニアにだけ解けないパズル？』</h4>
+<p><a href="http://challenge-your-limits.herokuapp.com/">http://challenge-your-limits.herokuapp.com/</a></p>
 
             </section>
     
@@ -503,11 +637,15 @@ Amazon Echo、LINE Clova の検索もできます。</p>
     
         <section >
             
-            <h3><a id="user-content-こども英会話" class="anchor" href="#こども英会話" aria-hidden="true"></a>こども英会話</h3>
-<br>
-<p>意外と使えた。<br>
-が、セクションが短すぎてすぐ飽きた。<br>
-あと、ほぼ聴くだけなのがちょっと・・</p>
+            <h5><a id="user-content-補足" class="anchor" href="#補足" aria-hidden="true"></a>※補足※</h5>
+<p>現在はWindows10にcurlをインストールできます。<br>
+クイズを解いた 2016年頃は Win7を使ってました。<br>
+　<br>
+後、最近のサードパーティ製のターミナルは　　
+bashが使え、curlも使える事が多いので、<br>
+以前ほど苦労する事はありません。<br>
+（以前は bashは使えても、<br>
+curlは使えないツールが多かった。）</p>
 
             </section>
     
@@ -517,10 +655,7 @@ Amazon Echo、LINE Clova の検索もできます。</p>
     
         <section >
             
-            <h4><a id="user-content-今でもたまに使ってる（１種）" class="anchor" href="#今でもたまに使ってる（１種）" aria-hidden="true"></a>今でもたまに使ってる（１種）</h4>
-<ul>
-<li>とっさの旅英語</li>
-</ul>
+            <p><s>まぁ、Windows には IE というWebエンジニアにとっての敵が居るので、厳しいとか言ってら（略</s></p>
 
             </section>
     
@@ -530,99 +665,7 @@ Amazon Echo、LINE Clova の検索もできます。</p>
     
         <section >
             
-            <h3><a id="user-content-とっさの旅英語" class="anchor" href="#とっさの旅英語" aria-hidden="true"></a>とっさの旅英語</h3>
-<br>
-<p>出したお題に対して、発音の練習ができる。<br>
-ただ、発音の判定が甘すぎる気が・・・<br>
-かなり適当に喋ってもOKとなる。</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <h3><a id="user-content-結論（google-home編）：ver-1" class="anchor" href="#結論（google-home編）：ver-1" aria-hidden="true"></a>結論（Google Home編）：ver 1</h3>
-<p>スマートスピーカーは英語学習に使いづらい。</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>というわけで、デフォルトの言語を<br>
-英語に変えてみた。</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>必然的に英語で話す事になるので、<br>
-発音の練習ができる。</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>結論としては、<br>
-学習に使えない事もない。</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>ただ、話題の提供が一方的にこちら側になる。<br>
-それがちょっと面倒。</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>何か気軽に遊べそうなアプリを模索中。<br>
-見つかったら何かの形で<br>
-アウトプットしたいと思います。</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>あと、Amazon Echo でも実験中です。<br>
-こっちの方が種類が豊富でした。</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>おわり。</p>
+            <p>おわり</p>
 
             </section>
     
