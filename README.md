@@ -44,3 +44,7 @@ ________________________________________________________________________________
 ## 俺式情報整理術
 <https://kakisoft.github.io/slides/my-method-of-organizing-information/export/index.html>
 
+
+## お手軽に使う PHP
+<https://kakisoft.github.io/slides/lets-use-PHP-easily/export/index.html>
+
