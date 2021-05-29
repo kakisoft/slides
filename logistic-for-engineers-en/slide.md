@@ -28,7 +28,7 @@ name       |Satoru Kakinohana &nbsp;&nbsp;&nbsp;<small>
 job        | Software Engineers<br><small>Specifically Logistics.<br>PHP/JavaScript/AWS etc...</small>
 hobby      | escape room
 portfolio | [kakisoft-portfolio](https://kakisoft-portfolio-v2.netlify.com)
-Twitte | [@kakisoft_tab](https://twitter.com/kakisoft_tab)
+Twitte | [kakisoft_tab](https://twitter.com/kakisoft_tab)
 
 <br>
 

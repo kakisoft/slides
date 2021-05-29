@@ -24,3 +24,27 @@ ________________________________________________________________________________
 ## 【倉庫内無線LAN環境】アンドロイド端末で無料通話をしてみよう
 <https://kakisoft.github.io/slides/lets-try-asterisk/export/index.html>
 
+
+## 「Vue.js 分からーん！」と感じていたのは、自分が『オブジェクト指向の奴隷』だったんだと気がついた話。
+<https://kakisoft.github.io/slides/slave-of-OOP/export/index.html>
+
+
+## AppHarborを使って.NETアプリを無料デプロイ！
+<https://kakisoft.github.io/slides/lets-try-dotnet-application-with-appharbor-for-free/export/index.html>
+
+
+## スマートスピーカーを英語学習に活用してみる
+<https://kakisoft.github.io/slides/leaning-english-with-smart-speaker/export/index.html>
+
+
+## Windowsユーザに厳しいWebの世界 ～ほとんどのエンジニアには解けるが、下位10％のダメなエンジニアにだけ解けないパズル？～
+<https://kakisoft.github.io/slides/tough-world-for-windows-user/export/index.html>
+
+
+## 俺式情報整理術
+<https://kakisoft.github.io/slides/my-method-of-organizing-information/export/index.html>
+
+
+## お手軽に使う PHP
+<https://kakisoft.github.io/slides/lets-use-PHP-easily/export/index.html>
+
