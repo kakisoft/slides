@@ -292,7 +292,7 @@ Sometimes,
 
 "complex calculation method with more office work which may be cheap depending on patten"
 
-is prefered to  
+is preferred to  
 
 "simple and relatively expensive calculation method with less office work"  
 
@@ -304,7 +304,7 @@ But, It often doesn't work well according to your ideal.
 
 ---
 
-As discussed, for some cases you shouldn't use only techlogy when you solve the customers problem.
+As discussed, for some cases you shouldn't use only technology when you solve the customers problem.
 
 ---
 
@@ -312,7 +312,7 @@ lastly, I want to speak about when you launch Warehouse Management System.
 
 ---
 
-There are many varieties of sites in logistic industory.
+There are many varieties of sites in logistic industry.
 
 ---
 
@@ -320,7 +320,7 @@ If you have own systems, it is not suitable in warehouses in some cases.
 
 ---
 
-If you encounter such sutiation, you will choose one of these options.
+If you encounter such situation, you will choose one of these options.
 
 ---
 
