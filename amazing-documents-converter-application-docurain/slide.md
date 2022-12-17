@@ -46,13 +46,11 @@ You use deductive skill and inspiration and team work, then solve challenging pu
 特に企業の回し者というわけではありません。
 
 
-発表者がちょっとやってみたかったという理由で、
-なお、作成者（発表者）は
-
-
 (Note)
-This slide, 
+I would like to introduce one impressive service in this slide.
 
+It may seems like a sales presentation.  
+But, I just love this service. I'm not working for this company.
 
 ---
 
@@ -99,43 +97,78 @@ We face many challenges to make some documents download functions.
 
 しかし、それをとても簡単に解決できるサービスがあります。
 
+But, there is a simple solution.
+
 ---
 
-それが、'Docurain' です。
+それが、"Docurain" です。
+
+It is "Docurain".
 
 ---
 
 これを使えば、帳票開発の煩わしい作業から、完全に開放されます。
 
+If you use this service, you can be liberated from the annoying document creation tasks.
+
 ---
 
 Docurain を使って帳票を作成する機能を開発する時、やる事は、たった２つだけです。
+
+There are only 2 steps to create a function for document creation using Docurain.
 
 ---
 
 １つは、帳票のテンプレートを作成する事。
 
+Firstly, create the document template.
+
 ---
 
 テンプレートの作成は、とても簡単です。
-
 Excel を使って作成するだけです。
 
+It is incredibly simple.
+Only tool that you need is Excel.
+
+---
+
+どんな複雑なフォーマットでも思いのままです。
+
 専用のツールや、難しい操作は一切必要ありません。
+
+You have full control to create a complex template. /  
+You have a infinite possibility of any kind of complex template.
+
+There is no need of complex operation.
 
 ---
 
 もう１つは、API をコールする事。
 
----
-
-テンプレートには、アクセス
+Lastly, call the API.
 
 ---
 
-どんな言語でもOKです
+先ほど作成したテンプレートを指定し、出力したいパラメータをセットしてコールします。
 
-ライブラリのインストールは必要ありません
+Specify the template, and set the parameters you want to print, and call.
+
+---
+
+もちろん、どんな言語でもOKです。
+
+専用のライブラリのインストールは一切必要ありません
+
+Of course, you can use with any computer languages.
+
+There is no need to install some specific libraries.
+
+---
+
+実際に、どのようなステップでドキュメントが作成されるのか、ご紹介したいと思います。
+
+So, let me show you how to create documents using Docurain.
 
 ---
 
@@ -145,6 +178,70 @@ Excel を使って作成するだけです。
 
 ---
 
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+このように、とても簡単にドキュメント作成機能を作成する事が出来ます。
+
+As you can see, you can easily create document function.
+
+---
+
+あなたの仕事を簡単にしてみませんか？
+
+Why don't you make your work easy?
+
+---
+
+詳しい情報は、公式サイトをご参照ください
+
+If you want to get more information, please visit official website.
+
+（QRコード）
+
+---
+
+帳票出力機能の開発にわずらわしさを感じている企業からのご連絡をお待ちしております。
+
+We are looking forward to hearing from the companies that find document creation frustrating.
+
+---
+
+※注意※
+
+重ね重ね言いますが、発表者は Docurain 社の人間ではなく、本スライドは製品のPRスライドでもありません。
+
+本当に本当に ITエンジニアのLTイベント用に作成したものです。
+
+
+**!!!Caution!!!**
+
+I repe
+Let me repeat that, I'm not from Docurain company neither this slide is production advertizement.
+
+It is truly truly for this event for IT engineers.
+
+---
+
+(Thank you for listing)
 
 ---
 
