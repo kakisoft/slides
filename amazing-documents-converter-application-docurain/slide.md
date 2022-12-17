@@ -39,6 +39,18 @@ You use deductive skill and inspiration and team work, then solve challenging pu
 
 ---
 
+（注意書き）
+今回のスライドは、とあるサービスを紹介する内容です。
+
+作成者（発表者）は
+
+
+(Note)
+This slide, 
+
+
+---
+
 私たちエンジニアは、ドキュメント作成が、とても面倒で大変だと思う事がありませんか？
 
 Have you, as engineers, ever had difficult time making some documents?
@@ -96,4 +108,5 @@ We face many challenges to make some documents download functions.
 
 report - 報告書
 document - 資料全般
+
 

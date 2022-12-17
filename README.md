@@ -48,21 +48,3 @@ ________________________________________________________________________________
 ## お手軽に使う PHP
 <https://kakisoft.github.io/slides/lets-use-PHP-easily/export/index.html>
 
-
-
-
-
-A hidden trap in DNS
-https://kakisoft.github.io/slides/a-hidden-trap-in-DNS/export/index.html
-
-
-docurain
-
-amazing-documents-creation-application-docurain
-amazing-documents-make-application-docurain
-
-amazing-documents-conversion-application-docurain
-
-
-report - 報告書
-document - 資料全般
