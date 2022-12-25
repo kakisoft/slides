@@ -61,6 +61,7 @@ Have you, as engineers, ever had difficult time making some documents?
 ---
 
 今日は、皆様に、とても素晴らしいドキュメント作成サービスをご紹介したいと思います。
+
 Today, I would introduce amazing documents converter application 'Docurain'
 
 ---
@@ -125,10 +126,10 @@ Firstly, create the document template.
 
 ---
 
-テンプレートの作成は、とても簡単です。
-Excel を使って作成するだけです。
+テンプレートの作成は、とても簡単です。  
+Excel を使って作成するだけです。  
 
-It is incredibly simple.
+It is incredibly simple.  
 Only tool that you need is Excel.
 
 ---
