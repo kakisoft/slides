@@ -39,14 +39,14 @@ You use deductive skill and inspiration and team work, then solve challenging pu
 
 ---
 
-（注意書き）
-このスライドは、私が衝撃を受けた、とあるサービスを紹介する内容です。
+（注意書き）  
+このスライドは、私が衝撃を受けた、とあるサービスを紹介する内容です。  
 
-あたかも製品のPRプレゼンのように発表しておりますが、単に発表者がちょっとやってみたかったというのが理由です。
-特に企業の回し者というわけではありません。
+あたかも製品のPRプレゼンのように発表しておりますが、単に発表者がちょっとやってみたかったというのが理由です。  
+特に企業の回し者というわけではありません。  
 
 
-(Note)
+**(Note)**  
 I would like to introduce one impressive service in this slide.
 
 It may seems like a sales presentation.  
@@ -124,6 +124,8 @@ There are only 2 steps to create a function for document creation using Docurain
 
 Firstly, create the document template.
 
+<img src="./assets/001.png" style="max-width: 60%; max-height: 500px;">  
+
 ---
 
 テンプレートの作成は、とても簡単です。  
@@ -167,36 +169,43 @@ There is no need to install some specific libraries.
 
 ---
 
+また、初期費用・月額費用・サポート費用は一切かかりません。
+
+発生する費用は、出力した帳票１毎あたりの金額、５円のみです。
+
+---
+
 実際に、どのようなステップでドキュメントが作成されるのか、ご紹介したいと思います。
 
 So, let me show you how to create documents using Docurain.
 
 ---
 
+まずは、テンプレートを用意します。
 
 ---
 
+このように、Excel に出力用の特別な記述をします。
 
 ---
 
+ファイルをアップロードします。
 
 ---
 
+続いて、APIを用意します。
 
 ---
 
+テンプレートを指定し、出力するデータを json形式で記述します。
 
 ---
 
+実行ボタンを押すと、資料がダウンロードできます。
 
 ---
 
-
----
-
-
----
-
+もちろん、ソースコードから実行する事も出来ます。
 
 ---
 
