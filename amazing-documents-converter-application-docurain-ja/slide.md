@@ -6,7 +6,7 @@ customTheme : "my-style"
 title: "Amazing Documents Converter Application 'Docurain'"
 ---
 
-## 使いやすすぎてヤバいドキュメント作成サービス 'Docurain'
+### 使いやすすぎてヤバい<br>ドキュメント作成サービス<br> 'Docurain'
 
 <br>
 <br>
