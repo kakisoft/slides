@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Amazing Documents Converter Application &#39;Docurain&#39;</title>
+  <title>Reveal JS presentation</title>
 
   <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
   <meta name="author" content="Hakim El Hattab">
@@ -37,7 +37,7 @@
 
   <!-- Revealjs Theme -->
   
-  <link rel="stylesheet" href="libs/reveal.js/4.3.1/theme/league.css" id="theme">
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/theme/black.css" id="theme">
   
   
 
@@ -47,8 +47,6 @@
 
 
   <!-- Revealjs Theme -->
-  
-  <link rel="stylesheet" href="my-style.css">
   
 
    <!-- css list -->
@@ -73,60 +71,132 @@
     
         <section >
             
-            <h2>Amazing Documents Converter Application ‘Docurain’</h2>
-<br>
-<br>
-<br>
-<br>
-kakisoft
-<br>
-<p>  <img src="../assets/kakisoft_logo
-.png" style="max-width: 10%;"></p>
+            <h2>vscode-reveal</h2>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal">https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal</a></p>
+<h2>ビルド</h2>
+<pre><code>command + shift + P → Rrevealjs: Export in HTML.
+</code></pre>
+<h2>vscode にてプレビュー</h2>
+<pre><code>左メニューの vscode-reveal のアイコンをクリック → 上段のアイコン（分割しているようなアイコン）をクリック
+</code></pre>
+<h2>ブラウザにてプレビュー</h2>
+<pre><code>コマンドパレットで [reveal] を検索
 
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <h3>about me</h3>
+Open presentation in browser
+</code></pre>
+<hr>
+<hr>
+<hr>
+<h2>vscode-reveal : sample</h2>
+<p><a href="https://raw.githubusercontent.com/evilz/vscode-reveal/master/sample.md">https://raw.githubusercontent.com/evilz/vscode-reveal/master/sample.md</a></p>
+<h2>reveal.js</h2>
+<p><a href="https://revealjs.com/">https://revealjs.com/</a>
+<a href="https://revealjs.com/markup/">https://revealjs.com/markup/</a></p>
+<h2>reveal.js(GitHub)</h2>
+<p><a href="https://github.com/hakimel/reveal.js/blob/master/README.md">https://github.com/hakimel/reveal.js/blob/master/README.md</a></p>
+<h2>reveal.jsのREADME.mdを翻訳してみた</h2>
+<p><a href="https://qiita.com/hilohiro/items/eab479f6dcf4a100e31b">https://qiita.com/hilohiro/items/eab479f6dcf4a100e31b</a></p>
+<h2>【スライド】 非エンジニアのためのお手軽reveal.js入門</h2>
+<p><a href="https://jyun76.github.io/revealjs-vscode/">https://jyun76.github.io/revealjs-vscode/</a></p>
+<h2>【スライド】 REVEAL.JS</h2>
+<p><a href="https://www.w3.org/2013/06/revealjs/#/">https://www.w3.org/2013/06/revealjs/#/</a></p>
+<h2>参考</h2>
+<h4>これからのプレゼン資料は reveal.js を使おう</h4>
+<p><a href="https://qiita.com/Targityen/items/40ae4795e2cb77c1adc6">https://qiita.com/Targityen/items/40ae4795e2cb77c1adc6</a></p>
+<h4>Visual Studio Code の拡張機能「vscode-reveal」で reveal.js を使ってみる</h4>
+<p><a href="https://qiita.com/myname6c7c2/items/1d8c434f14dfe8f273a6">https://qiita.com/myname6c7c2/items/1d8c434f14dfe8f273a6</a></p>
+<hr>
+<hr>
+<hr>
+<h1>header config</h1>
 <table>
 <thead>
 <tr>
-<th> </th>
-<th> </th>
+<th style="text-align:left">プロパティ</th>
+<th style="text-align:left">値</th>
+<th style="text-align:left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>name</td>
-<td>Satoru Kakinohana    <small></td>
+<td style="text-align:left">controls</td>
+<td style="text-align:left">true/false</td>
+<td style="text-align:left">スライド移動用の矢印の表示有無を設定します。</td>
 </tr>
 <tr>
-<td>job</td>
-<td>Software Engineers<br><small>Specifically Logistics.<br>PHP/JavaScript/AWS etc…</small></td>
+<td style="text-align:left">controlsLayout</td>
+<td style="text-align:left">bottom-right/edges</td>
+<td style="text-align:left">スライド移動用の４方向の矢印を右下に表示する（bottom-right）か、各方向の端に表示するか（edges）を設定します。</td>
 </tr>
 <tr>
-<td>hobby</td>
-<td>escape room</td>
+<td style="text-align:left">slideNumber</td>
+<td style="text-align:left">true/false</td>
+<td style="text-align:left">スライドページ番号の表示有無を設定します。</td>
 </tr>
 <tr>
-<td>portfolio</td>
-<td><a href="https://kakisoft-portfolio-v2.netlify.com">kakisoft-portfolio</a></td>
+<td style="text-align:left">history</td>
+<td style="text-align:left">true/false</td>
+<td style="text-align:left">ブラウザの履歴を有効にするかを設定します。</td>
 </tr>
 <tr>
-<td>Twitte</td>
-<td><a href="https://twitter.com/kakisoft_tab">kakisoft_tab</a></td>
+<td style="text-align:left">keyboard</td>
+<td style="text-align:left">true/false</td>
+<td style="text-align:left">キー操作の有無を設定します。</td>
+</tr>
+<tr>
+<td style="text-align:left">showNotes</td>
+<td style="text-align:left">true/false</td>
+<td style="text-align:left">全スライドにノートを表示するかを設定します。</td>
+</tr>
+<tr>
+<td style="text-align:left">autoSlide</td>
+<td style="text-align:left">数値（デフォルト：0）</td>
+<td style="text-align:left">スライドを自動で移動する際の時間（1000: 1s）を設定します。0の場合は自動移動しません。</td>
+</tr>
+<tr>
+<td style="text-align:left">autoSlideStoppable</td>
+<td style="text-align:left">true/false</td>
+<td style="text-align:left">スライドを自動で移動させる場合に、停止ボタンの表示有無を設定します。</td>
+</tr>
+<tr>
+<td style="text-align:left">mouseWheel</td>
+<td style="text-align:left">true/false</td>
+<td style="text-align:left">マウスホイール操作の有無を設定します。</td>
+</tr>
+<tr>
+<td style="text-align:left">transitionSpeed</td>
+<td style="text-align:left">default/fast/slow</td>
+<td style="text-align:left">スライドの移動速度を設定します。</td>
+</tr>
+<tr>
+<td style="text-align:left">backgroundTransition</td>
+<td style="text-align:left">none/fade/slide/convex/concave/zoom</td>
+<td style="text-align:left">スライド移動アニメーションを設定します。</td>
+</tr>
+<tr>
+<td style="text-align:left">enableSpeakerNotes</td>
+<td style="text-align:left">true/false</td>
+<td style="text-align:left">スピーカーノート機能の有無を設定します。</td>
 </tr>
 </tbody>
 </table>
-<br>
-<small>
-cf. escape room is called "リアル脱出ゲーム" in Japan.<br>
-It's really exciting entertainment.  <br>
-You use deductive skill and inspiration and team work, then solve challenging puzzles.</small>
+<hr>
+<h2>transition</h2>
+<p>Transition style</p>
+<ul>
+<li>none</li>
+<li>fade</li>
+<li>slide</li>
+<li>convex</li>
+<li>concave</li>
+<li>zoom</li>
+</ul>
+<hr>
+<h2>theme</h2>
+<pre><code>
+---
+theme : &quot;solarized&quot;
+</code></pre>
 
             </section>
     
@@ -136,349 +206,45 @@ You use deductive skill and inspiration and team work, then solve challenging pu
     
         <section >
             
-            <p><strong>(Note)</strong><br>
-I would like to introduce one impressive service in this slide.</p>
-<p>It may seems like a sales presentation.<br>
-But, I just love this service. I’m not working for this company.</p>
+            <pre><code>
+### black
+![x](common/asset/theme-black.png)  
 
-            </section>
-    
+### white
+![x](common/asset/theme-white.png)  
 
+### league
+![x](common/asset/theme-league.png)  
 
+### sky
+![x](common/asset/theme-sky.png)  
 
-    
-        <section >
-            
-            <p>Have you, as engineers, ever had difficult time making some documents?</p>
+### beige
+![x](common/asset/theme-beige.png)  
 
-            </section>
-    
+### simple
+![x](common/asset/theme-simple.png)  
 
+### serif
+![x](common/asset/theme-serif.png)  
 
+### blood
+![x](common/asset/theme-blood.png)  
 
-    
-        <section >
-            
-            <p>Today, I would introduce amazing documents converter application ‘Docurain’</p>
+### night
+![x](common/asset/theme-night.png)  
 
-            </section>
-    
+### moon
+![x](common/asset/theme-moon.png)  
 
+### solarized
+![x](common/asset/theme-solarized.png)  
 
 
-    
-        <section >
-            
-            <p>Estimate, invoice and purchase order …</p>
-<p>Some system is required to print these documents.</p>
+____________________________________________________________________
 
-            </section>
-    
 
-
-
-    
-        <section >
-            
-            <p>It is not easy to create these functions.</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>Every single document has totally different and unique format.</p>
-<p>Also, we have to choose an appropriate library among many others.</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>We face many challenges to make some documents download functions.</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>But, there is a simple solution.</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>It is “Docurain”.</p>
-<img src="./assets/001.png" style="max-width: 60%; max-height: 500px;">  
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>If you use this service, you can be liberated from the annoying document creation tasks.</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>There are only 2 steps to create a function for document creation using Docurain.</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>Firstly, create the document template.</p>
-<img src="./assets/002.png" style="max-width: 60%; max-height: 500px;">  
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>It is incredibly simple.<br>
-Only tool that you need is Excel.</p>
-<img src="./assets/003.png" style="max-width: 60%; max-height: 500px;">  
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>You have full control to create a complex template.</p>
-<p>There is no need of complex operation.</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>Lastly, call the API.</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>Specify the template, and set the parameters you want to print, and call.</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>Of course, you can use with any computer languages.</p>
-<p>There is no need to install some specific libraries.</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>And, there are no initial costs, monthly costs, or support costs.</p>
-<p>It costs only 5 yen per document.</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>So, let me show you how to create documents using Docurain.</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>First, prepare your Excel template.</p>
-<img src="./assets/004.png" style="max-width: 60%; max-height: 500px;">  
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>Like this, fill with specific code.</p>
-<img src="./assets/005.png" style="max-width: 60%; max-height: 500px;">  
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>And, upload this file.</p>
-<img src="./assets/006.png" style="max-width: 80%; max-height: 500px;">  
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>Next, call the API.</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>Choose the template, and set the parameter as json object.</p>
-<img src="./assets/007.png" style="max-width: 90%; max-height: 700px;">  
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>Click execute button, document will be downloaded.</p>
-<img src="./assets/008.png" style="max-width: 60%; max-height: 500px;">  
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>You can create such document.</p>
-<img src="./assets/009.png" style="max-width: 60%; max-height: 500px;">  
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>Needless to say, you can call the API from source code.</p>
-<img src="./assets/010.png" style="max-width: 60%; max-height: 500px;">  
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>As you can see, you can easily create document function.</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>Why don’t you make your work easy?</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>If you want to get more information, please visit official website.</p>
-<p><a href="https://docurain.jp/">https://docurain.jp/</a></p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>We are looking forward to hearing from the companies that find document creation frustrating.</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p><strong>!!!Caution!!!</strong></p>
-<p>Let me repeat that, I’m not from Docurain company neither this slide is production advertizement.</p>
-<p>It is truly truly for this event for IT engineers.</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <p>fin.</p>
+</code></pre>
 
             </section>
     

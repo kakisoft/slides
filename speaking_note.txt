@@ -1,6 +1,6 @@
 Hi, everyone!
 Thank you for having me today.
-The topic I would like to talk about is "Logistic for engineers"
+The topic I would like to talk about is "XXXX"
 
 ----------------------------------------
 
@@ -25,6 +25,8 @@ They are
 
 ご清聴ありがとうございました
 Thank you for giving me this opportunity today.
+
+Thank you for listing.
 
 Bye
 
