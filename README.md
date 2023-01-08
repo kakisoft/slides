@@ -4,7 +4,7 @@ ________________________________________________________________________________
 # English
 
 ## Amazing Documents Converter Application 'Docurain'
-<https://kakisoft.github.io/slides/amazing-documents-converter-application-docurain/export/index.html>
+<https://kakisoft.github.io/slides/amazing-documents-converter-application-docurain-en/export/index.html>
 
 ## A hidden trap in DNS
 <https://kakisoft.github.io/slides/a-hidden-trap-in-DNS/export/index.html>
