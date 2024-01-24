@@ -1,0 +1,765 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>GitHub Actions の使い方とハマリどころについて</title>
+
+  <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+  <meta name="author" content="Hakim El Hattab">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/reset.css">
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/reveal.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- highlight Theme -->
+  
+  <link rel="stylesheet" href="libs/highlight.js/11.3.1/styles/monokai.min.css">
+  
+	
+		
+	<link rel="stylesheet" href="libs/reveal.js/4.3.1/plugin/chalkboard/style.css">
+	
+	
+	
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/plugin/customcontrols/style.css">
+  
+	
+
+
+
+  <!-- Revealjs Theme -->
+  
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/theme/league.css" id="theme">
+  
+  
+
+  <link rel="stylesheet" href="libs/styles/tasklist.css">
+	<link rel="stylesheet" href="libs/styles/iota.css">
+	<link rel="stylesheet" href="libs/styles/layout.css">
+
+
+  <!-- Revealjs Theme -->
+  
+  <link rel="stylesheet" href="my-style.css">
+  
+
+   <!-- css list -->
+	
+
+   
+
+</head>
+
+<body>
+
+   
+
+  <div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+      
+
+
+    
+        <section >
+            
+            <h3>GitHub Actions の使い方とハマリどころについて</h3>
+<br>
+<br>
+<br>
+<br>
+kakisoft
+<br>
+<p>  <img src="../assets/kakisoft_logo.png" style="max-width: 10%;"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>GitHub Actions とは</h2>
+<p>GitHub 公式の CI/CD の仕組み。</p>
+<p>コードの変更やプッシュが行われたときに、特定のワークフローを自動的に実行できる。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>使い方</h2>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>.github/workflows ディレクトリに、yamlファイルを配置。<br>
+（ファイル名は何でもいい）</p>
+<p><img src="../assets/001.png" alt="x"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>こんな感じでジョブが動く。</p>
+<p><img src="../assets/002.png" alt="x"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>基本構造</h2>
+<p><img src="../assets/003.png" alt="x"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>使うだけなら超簡単。</p>
+<p>しかし、やりたい事を実現させるには、結構変なハマり所もある。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>今回実現したい事</h2>
+<p>バックエンドのリポジトリとフロントエンドのリポジトリにて、Open API 仕様書の同期を取る。<br>
+（backend で更新した内容が、自動的に frontend にも反映されるようにする）</p>
+<p><img src="../assets/004.png" alt="x"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>考えた方法</h2>
+<p>バックエンド側のリポジトリ push した時、<br>
+差分をフロントエンド側にも反映させる。</p>
+<p>フロント側のリポジトリを clone し、<br>
+バックエンド側で編集した内容を反映させ、pushする。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>push 方法</h2>
+<p>GitHub Actions には、いくつかの命令が定義されているが、pushコマンドは無いので、コマンドにて実行。<br>
+（この部分の詳細は割愛します）</p>
+<p><img src="../assets/005.png" alt="x"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>バックエンド側のリポジトリの内容が、フロント側に反映されたことを確認。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>しかし、変更が無かった場合、エラーが発生する。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>コミットする内容が無かった場合、exit code 1 を出力し、エラーで終了してしまう。</p>
+<p><img src="../assets/006.png" alt="x"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>必要な処理</h2>
+<ul>
+<li>変更があれば push</li>
+<li>変更が無ければ pushしない</li>
+</ul>
+<p>「変更があるかどうか」を判定し、処理を分岐をする。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>ポイント１．条件判定</h2>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>変更前の内容と変更後の内容で diff を取る。</p>
+<p><img src="../assets/007.png" alt="x"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>diff 判定した時点で、exit code 1 で終了。（エラーで終了する）<br>
+※差分が無かった場合は、エラーが発生しない。</p>
+<p><img src="../assets/008.png" alt="x"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>「&gt; /dev/null」がマズいのか？　と思い、変数化してみるが、これでもエラー。</p>
+<p><img src="../assets/009.png" alt="x"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>解決方法</h2>
+<p>判定条件は if 文の中に入れる。</p>
+<p><img src="../assets/010.png" alt="x"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>途中で exit code が出ないように気を遣う必要がある模様。</p>
+<p><img src="../assets/011.png" alt="x"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>ポイント２．分岐処理</h2>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>実現したい事</h2>
+<ul>
+<li>変更があれば push</li>
+<li>変更が無ければ pushしない</li>
+</ul>
+<p>↓</p>
+<p>＜実装内容＞<br>
+変更が無ければ、それ以降のジョブを実行しない</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>調べてみると、「 “exit 0” で処理を終了させれば OK」という情報が出てくる。</p>
+<p><img src="../assets/012.png" alt="x"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>しかし、“exit 0” で抜けても、後続のジョブを実行している。</p>
+<p><img src="../assets/013.png" alt="x"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>他には、「 “exit 1” でジョブを強制終了させる」という情報が出てくる。</p>
+<p><img src="../assets/014.png" alt="x"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>しかし、この方法だと、ジョブそのものがエラーという扱いになる。<br>
+（「変更が無ければ pushしない」という処理にしたいので、pushしないケースをエラーにしたい訳ではない）</p>
+<p><img src="../assets/015.png" alt="x"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>解決方法</h2>
+<p>変数に値を保持する。</p>
+<p><img src="../assets/016.png" alt="x"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>以下のように、「変更がない場合、後続のジョブを実行しない」という制御ができる。</p>
+<p><img src="../assets/017.png" alt="x"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>ただし、この方法で分岐処理を記述する場合、後続のジョブが複数ある場合、それら全てに判定式が必要となる。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>今回の場合、判定後に実行するジョブは１つだけだったので、複雑化せずに済みました。<br>
+（最適解かどうかは議論の余地がありますが、シェルスクリプトを if の中に書くよりは良いアプローチだと思っています）</p>
+<p><img src="../assets/016.png" alt="x"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>他の解決方法</h2>
+<p>「continue-on-error: true」 というオプションを付けると、“exit 1” でエラーを出力しても後続の処理を実行するので、この方法を使う事も可。</p>
+<p>ただし、本当にエラーと判断してジョブを終了させたい場合との区別が付けられなくなるので、今回はその方法は採用しませんでした。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>ポイント３．変数</h2>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p><a href="https://github.blog/changelog/2022-10-11-github-actions-deprecating-save-state-and-set-output-commands/">GitHub 公式サイトの説明</a></p>
+<p><img src="../assets/018.png" alt="x"></p>
+<p>変数の記述方法が変わる。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>トラップ１</p>
+<p><img src="../assets/019.png" alt="x"></p>
+<p>トラップ２</p>
+<p><img src="../assets/020.png" alt="x"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>まとめ</h2>
+<ul>
+<li>使うだけなら簡単だが、やりたい事を実現させるには、苦労する事がある。</li>
+<li>極力、ジョブはシンプルな構成にした方がいい。</li>
+<li>分岐処理も、できるだけ作らない方がいい。</li>
+<li>上手く行かない場合、何が原因で上手く行かないのか分かりづらいので、問題を切り分けて自前の環境で何度も実行して調査する必要がある。</li>
+<li>プラグインは意外と活用できない。</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>おまけ</h2>
+<p><a href="https://www.memory-lovers.blog/entry/2022/11/13/120000">GitHub Actionsをローカルで実行する(nektos/act)</a></p>
+<p><img src="../assets/021.png" alt="x"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <p>おわり</p>
+
+            </section>
+    
+
+
+    </div>
+
+
+  </div>
+
+  <div class="line top"></div>
+  <div class="line bottom"></div>
+  <div class="line left"></div>
+  <div class="line right"></div>
+
+  <script src="libs/reveal.js/4.3.1/reveal.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/notes/notes.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/markdown/markdown.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/highlight/highlight.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/math/math.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/fullscreen/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/animate/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/animate/svg.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/Chart.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/d3.v3.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3.patch.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/queue.v1.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/topojson.v1.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/function-plot.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/customcontrols/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/embed-tweet/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/chart/chart.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/chart/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/verticator/verticator.js"></script>
+
+<script src="libs/reveal.js/4.3.1/plugin/zoom/zoom.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/search/search.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/menu/menu.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/chalkboard/plugin.js"></script>
+
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/plugin.js"></script>  -->
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/recorder.js"></script>-->
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/RecordRTC.js"></script>-->
+
+  
+
+<script>
+  const printPlugins = [
+      RevealNotes,
+      RevealHighlight,
+      RevealMath.MathJax3,
+      RevealAnimate,
+      RevealChalkboard, 
+			RevealEmbedTweet,
+			RevealChart,
+		];
+
+		const plugins =  [...printPlugins,
+		RevealZoom, 
+		RevealSearch, 
+				RevealMarkdown, 
+				RevealMenu, 
+				RevealFullscreen,
+				RevealAnything,
+				//RevealAudioSlideshow,
+				//RevealAudioRecorder,
+				RevealCustomControls, 
+				// poll
+				// question
+				// seminar
+				Verticator 
+				 ]
+
+
+		// Also available as an ES module, see:
+		// https://revealjs.com/initialization/
+		Reveal.initialize({
+			controls: true,
+      controlsTutorial: true,
+      controlsLayout: 'bottom-right',
+      controlsBackArrows: 'faded',
+      progress: true,
+      slideNumber: false,
+      //#showSlideNumber "all" "print" "speaker"
+      hash: true, //# hash: false,
+      //# respondToHashChanges: true,
+      //# history: false,
+      keyboard: true,
+      //#keyboardCondition: null,
+      overview: true,
+      center: true,
+      touch: true,
+      loop: false,
+      rtl: false,
+      //#navigationMode: 'default', linear grid
+      shuffle: false,
+      fragments: true,
+      fragmentInURL: false,
+      embedded: false,
+      help: true,
+      //#pause: true
+      showNotes: false,
+      autoPlayMedia: false, // TODO fix this to a nullable value
+      //#preloadIframes: null. true false
+      //#autoAnimate: true
+      //#autoAnimateMatcher: null,
+      //#autoAnimateEasing: 'ease',
+      //autoAnimateDuration: 1.0,
+      //#autoAnimateUnmatched: true
+      //#autoAnimateStyles: []
+      autoSlide: 0, // TODO fix this to a falseable value
+      autoSlideStoppable: true,
+      autoSlideMethod: '0',
+      defaultTiming: 120,
+      mouseWheel: false,
+      //#previewLinks: false
+      //#postMessage: true, // TODO : this can cause issues with the vscode api ???
+      //#postMessageEvents: false,
+      //#focusBodyOnPageVisibilityChange: true,
+      transition: 'slide',
+      transitionSpeed: 'default',
+      backgroundTransition: 'fade',
+      //#pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
+      //#pdfSeparateFragments: true,
+      //#pdfPageHeightOffset: -1,
+      viewDistance: 3,
+      //#mobileViewDistance: 2,
+      display: 'block',
+      //#hideInactiveCursor: true,
+      //#hideCursorTime: 5000
+
+      // Parallax Background
+      parallaxBackgroundImage: '',
+      parallaxBackgroundSize: '',
+      parallaxBackgroundHorizontal: 0,
+      parallaxBackgroundVertical: 0,
+
+      //Presentation Size
+      width: 960,
+			height: 700,
+			margin: 0.04,
+      minScale: 0.2,
+      maxScale: 2,
+      disableLayout: false,
+
+      audio: {
+        prefix: 'audio/', // audio files are stored in the "audio" folder
+        suffix: '.ogg', // audio files have the ".ogg" ending
+        textToSpeechURL: null, // the URL to the text to speech converter
+        defaultNotes: false, // use slide notes as default for the text to speech converter
+        defaultText: false, // use slide text as default for the text to speech converter
+        advance: 0, // advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
+        autoplay: false, // automatically start slideshow
+        defaultDuration: 5, // default duration in seconds if no audio is available
+        defaultAudios: true, // try to play audios with names such as audio/1.2.ogg
+        playerOpacity: 0.05, // opacity value of audio player if unfocused
+        playerStyle: 'position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;', // style used for container of audio controls
+        startAtFragment: false, // when moving to a slide, start at the current fragment or at the start of the slide
+      },
+      
+      chalkboard: { // font-awesome.min.css must be available
+        //src: "chalkboard/chalkboard.json",
+        storage: "chalkboard-demo",
+      },
+      
+			customcontrols: {
+					controls: [
+      						{
+						  id: 'toggle-overview',
+						  title: 'Toggle overview (O)',
+						  icon: '<i class="fa fa-th"></i>',
+						  action: 'Reveal.toggleOverview();'
+						}
+						,
+      {
+        icon: '<i class="fa fa-pen-square"></i>',
+        title: 'Toggle chalkboard (B)',
+        action: 'RevealChalkboard.toggleChalkboard();'
+      },
+      {
+        icon: '<i class="fa fa-pen"></i>',
+        title: 'Toggle notes canvas (C)',
+        action: 'RevealChalkboard.toggleNotesCanvas();'
+      }
+      
+				]
+			},
+			chart: {
+					defaults: { 
+						color: 'lightgray', // color of labels
+						scale: { 
+							beginAtZero: true, 
+							ticks: { stepSize: 1 },
+							grid: { color: "lightgray" } , // color of grid lines
+						},
+					},
+					line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [5,10], [0,0] ] }, 
+					bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+					pie: { backgroundColor: [ ["rgba(0,0,0,.8)" , "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+					radar: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+			},
+			math: {
+				mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+				config: 'TeX-AMS_HTML-full',
+				// pass other options into `MathJax.Hub.Config()`
+				TeX: { Macros: { RR: "{\\bf R}" } }
+				},
+				anything: [ 
+				{
+		className: "plot",
+		defaults: {width:500, height: 500, grid:true},
+		initialize: (function(container, options){ options.target = "#"+container.id; functionPlot(options) })
+	 },
+	 {
+		className: "chart",  
+		initialize: (function(container, options){ container.chart = new Chart(container.getContext("2d"), options);  })
+	 },
+	 {
+		className: "anything",
+		initialize: (function(container, options){ if (options && options.initialize) { options.initialize(container)} })
+	 },
+					],
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: (window.location.search.match(/print-pdf/gi) ? printPlugins : plugins ) 
+		});
+			
+
+
+	    // Change chalkboard theme : 
+		function changeTheme(input) {
+			var config = {};
+			config.theme = input.value;
+			Reveal.getPlugin("RevealChalkboard").configure(config);
+			input.blur();
+		}
+
+		// // Handle the message inside the webview
+        // window.addEventListener('message', event => {
+
+        //     const message = event.data; // The JSON data our extension sent
+
+        //     switch (message.command) {
+        //         case 'refactor':
+        //             Reveal.toggleHelp();
+        //     }
+        // });
+
+		if (window.location.search.match(/print-pdf-now/gi)) {
+      		setTimeout(() => {
+				window.print();
+			  }, 2500);
+			
+    }
+</script>
+
+</body>
+
+</html>
