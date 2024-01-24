@@ -6,7 +6,7 @@ customTheme : "my-style"
 title: "GitHub Actions の使い方とハマリどころについて"
 ---
 
-### GitHub Actions の使い方とハマリどころについて
+## GitHub Actions の使い方とハマリどころについて
 
 <br>
 <br>
