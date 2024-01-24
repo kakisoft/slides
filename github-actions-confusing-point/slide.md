@@ -20,7 +20,7 @@ kakisoft
 
 ---
 
-## GitHub Actions とは
+### GitHub Actions とは
 
 GitHub 公式の CI/CD の仕組み。  
 
@@ -28,20 +28,20 @@ GitHub 公式の CI/CD の仕組み。
 
 ---
 
-## 使い方
+### 使い方
 
 
 ---
 
 .github/workflows ディレクトリに、yamlファイルを配置。  
 
-![x](assets/001.png)
+![x](../assets/001.png)
 
 ---
 
 こんな感じでジョブが動く。  
 
-![x](assets/002.png)
+![x](../assets/002.png)
 
 ---
 
@@ -53,7 +53,7 @@ GitHub 公式の CI/CD の仕組み。
 
 ## 今回実現したい事
 
-![x](assets/003.png)
+![x](../assets/003.png)
 
 
 ---
