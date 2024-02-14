@@ -18,6 +18,9 @@ ________________________________________________________________________________
 ____________________________________________________________________________________
 # 日本語で作成したスライド
 
+## GitHub Actions の使い方とハマリどころについて
+<https://kakisoft.github.io/slides/github-actions-confusing-point/export/index.html>
+
 ## 使いやすすぎてヤバいドキュメント作成サービス 'DOCURAIN'
 <https://kakisoft.github.io/slides/amazing-documents-converter-application-docurain-ja/export/index.html>
 
